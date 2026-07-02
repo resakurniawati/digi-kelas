@@ -1,128 +1,85 @@
 # 📐 Digi-Kelas
 
-**Digi-Kelas** adalah media pembelajaran digital interaktif berbasis web yang dirancang khusus untuk siswa **Sekolah Dasar (SD)** pada mata pelajaran **Matematika**. Saat ini, konten pembelajaran berfokus pada topik **Bangun Datar** (Geometri 2D), dengan 3 topik lainnya (Pecahan, Pengukuran, dan Data Sederhana) dalam perencanaan.
+**Digi-Kelas** adalah media pembelajaran digital interaktif berbasis web yang dirancang khusus untuk siswa **Sekolah Dasar (SD)** pada mata pelajaran **Matematika**. Saat ini, konten pembelajaran berfokus pada topik **Bangun Ruang (Kubus dan Balok)**, mencakup karakteristik, jaring-jaring, luas permukaan, volume, hingga penerapannya dalam kehidupan sehari-hari (seperti merancang kemasan).
 
-Aplikasi ini menyediakan pengalaman belajar terstruktur yang mencakup materi e-modul, video pembelajaran, lembar kerja (LKPD), kuis, serta asesmen pre-test dan post-test — semuanya dengan antarmuka yang ramah anak, dilengkapi maskot interaktif, animasi bintang berkelap-kelip, dan awan melayang.
+Aplikasi ini menyediakan pengalaman belajar terstruktur yang mencakup materi e-modul, video pembelajaran, lembar kerja (LKPD), **mini-games interaktif**, kuis, serta asesmen pre-test dan post-test. Semua dirancang dengan antarmuka yang ramah anak, dilengkapi maskot interaktif, animasi menarik, dan penghargaan berupa **Sertifikat Kelulusan**.
 
-> 🌐 Dibangun dengan **Next.js 16**, **React 19**, **TypeScript**, dan **Tailwind CSS v4** — seluruh antarmuka menggunakan **Bahasa Indonesia**.
+> 🌐 Dibangun dengan **Next.js 16**, **React 19**, **TypeScript**, **Tailwind CSS v4**, dan terintegrasi penuh dengan **Supabase** sebagai database backend — seluruh antarmuka menggunakan **Bahasa Indonesia**.
 
 ---
 
 ## ✨ Fitur Utama
 
-### 🏠 Dashboard Utama
+### 🏠 Dashboard Utama & Progress Tracking
+Halaman utama menampilkan sapaan personal, statistik pembelajaran real-time, progress bar penyelesaian materi, dan daftar misi belajar.
+* Terdapat **6 misi materi** (Karakteristik, Jaring-jaring, Luas Permukaan, Volume, Merancang Kemasan 1 & 2).
+* Progress belajar dan skor disimpan secara persisten di database menggunakan **Supabase**.
 
-Halaman utama menampilkan sapaan personal dengan nama siswa, statistik pembelajaran, dan **4 kartu materi**:
-
-| Materi | Status |
-|---|---|
-| **Bangun Datar** (Persegi, Persegi Panjang, Segitiga, Trapesium, dll.) | ✅ Aktif |
-| **Pecahan** | 🔒 Belum tersedia |
-| **Pengukuran** | 🔒 Belum tersedia |
-| **Data Sederhana** | 🔒 Belum tersedia |
-
-Setiap kartu materi memiliki tombol aksi untuk modul-modul berikut:
-
-### 📚 Modul Pembelajaran
+### 📚 Modul Pembelajaran (Alur Belajar)
 
 | Modul | Deskripsi |
 |---|---|
-| **Pre-Test** | 5 soal pilihan ganda sebagai asesmen awal — semua soal ditampilkan sekaligus dengan feedback jawaban benar/salah |
-| **E-Modul (Materi)** | Materi pembelajaran dalam format **PDF flipbook** interaktif dengan animasi 3D page-turn |
-| **Video** | 3 video pembelajaran YouTube (pengenalan, keliling, luas bangun datar) dengan playlist sidebar |
-| **LKPD** | 3 Lembar Kerja Peserta Didik dalam format PDF dengan sidebar navigasi dan fitur download |
-| **Quiz** | 10 soal pilihan ganda dengan **timer 5 menit**, navigasi per soal, animasi slide, dan tombol ulangi |
-| **Post-Test** | 10 soal pilihan ganda dengan **timer 5 menit** sebagai asesmen akhir — auto-submit saat waktu habis |
+| **Pre-Test** | Asesmen awal pilihan ganda untuk mengukur pemahaman sebelum mulai belajar. |
+| **E-Modul (Materi)** | Materi pembelajaran format PDF flipbook interaktif dengan animasi 3D page-turn. |
+| **Video** | Integrasi video pembelajaran YouTube dengan antarmuka fokus belajar. |
+| **LKPD** | Lembar Kerja Peserta Didik (PDF) dengan navigasi materi. |
+| **Mini-Game** | **BARU!** 6 permainan edukasi interaktif (contoh: *Aquarium Filler*, *Cargo Packer*, dll) untuk memperkuat pemahaman konsep bangun ruang secara menyenangkan. |
+| **Quiz** | Latihan soal pilihan ganda berbatas waktu (timer 5 menit), animasi slide, dan review. |
+| **Post-Test** | Asesmen akhir berbatas waktu (timer 5 menit) — otomatis disubmit saat waktu habis. |
+| **Sertifikat** | Penghargaan sertifikat kelulusan setelah menyelesaikan misi belajar. |
 
 ### 🎯 Fitur Tambahan
 
-- 🔐 **Autentikasi sederhana** — siswa memasukkan nama untuk memulai (disimpan di `localStorage`)
-- 🧸 **Desain ramah anak** — maskot SVG animasi, kartu rounded, warna pastel biru & hijau
-- ✨ **Animasi dekoratif** — bintang berkelap-kelip (twinkle) dan awan melayang sebagai latar belakang
-- ⏱️ **Timer kuis** — countdown 5 menit dengan indikator warna (hijau → kuning → merah)
-- 🔒 **Proteksi navigasi** — blocking tombol back browser dan peringatan `beforeunload` saat kuis berlangsung
-- 📊 **Review jawaban** — setelah submit, siswa dapat melihat review lengkap semua soal dengan highlight benar/salah
-- 📱 **Responsif** — tampilan optimal di desktop (2-page spread) maupun mobile (single page)
-- 📄 **PDF Flipbook** — viewer dengan animasi flip 3D, navigasi keyboard (arrow keys), dan dot pagination
-- 🧭 **Halaman 404 kustom** — maskot terkejut dengan pesan ramah anak dan tombol kembali
-- 👤 **Halaman Tentang** — profil pengembang, tujuan pembelajaran, alur belajar, dan badge tech stack
+- 🔐 **Autentikasi berbasis Sesi & PIN** — Siswa mendaftar dengan nama dan PIN, sesi divalidasi dengan Supabase.
+- 🏆 **Leaderboard (Peringkat)** — Klasemen siswa berdasarkan skor yang memotivasi semangat belajar kompetitif.
+- 🧸 **Desain Ramah Anak** — Maskot SVG animasi, komponen UI *rounded*, dan skema warna pastel yang menarik.
+- ✨ **Framer Motion & Animasi CSS** — Transisi yang mulus, *floating effects*, dan animasi dekoratif.
+- ⏱️ **Manajemen Waktu & Anti-Cheat** — Timer kuis interaktif dan proteksi tombol *back* browser saat ujian.
+- 📊 **Review Jawaban Komprehensif** — Highlight jawaban benar/salah setelah submit tes.
+- 📱 **Responsif** — Optimal untuk diakses melalui PC, tablet, maupun perangkat mobile.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Teknologi | Versi | Fungsi |
-|---|---|---|
-| [Next.js](https://nextjs.org) | 16.2.7 | Framework React (App Router) |
-| [React](https://react.dev) | 19.2.4 | Library UI |
-| [TypeScript](https://www.typescriptlang.org) | ^5 | Type safety |
-| [Tailwind CSS](https://tailwindcss.com) | v4 | Styling (via `@tailwindcss/postcss`) |
-| [react-pdf](https://github.com/wojtekmaj/react-pdf) | ^10.4.1 | Rendering PDF untuk flipbook & LKPD |
-| [clsx](https://github.com/lukeed/clsx) | ^2.1.1 | Conditional class names |
-| [tailwind-merge](https://github.com/dcastil/tailwind-merge) | ^3.6.0 | Merge class Tailwind tanpa konflik |
-| [React Compiler](https://react.dev/learn/react-compiler) | 1.0.0 | Optimasi performa otomatis (babel plugin) |
-| [Quicksand](https://fonts.google.com/specimen/Quicksand) | — | Font utama (Google Fonts) |
-
-### 🎨 Tema Warna
-
-| Token | Warna | Hex |
-|---|---|---|
-| Primary | Biru | `#0984E3` |
-| Accent | Hijau | `#00B894` |
-| Background | Biru Pastel | `#EAF6FF` |
-| Border | Biru Muda | `#B8DFFF` |
-| Error | Merah | `#EF4444` |
+| Teknologi | Fungsi |
+|---|---|
+| [Next.js](https://nextjs.org) (v16.2.7) | Framework React (App Router & Server Actions) |
+| [React](https://react.dev) (v19.2.4) | Library UI Core |
+| [TypeScript](https://www.typescriptlang.org) | Keamanan Type (Type Safety) |
+| [Tailwind CSS](https://tailwindcss.com) (v4) | Utility-first Styling (via `@tailwindcss/postcss`) |
+| [Supabase](https://supabase.com) | Database PostgreSQL, Autentikasi, & Manajemen Sesi |
+| [Framer Motion](https://motion.dev) | Animasi interaktif & transisi layout |
+| [react-pdf](https://github.com/wojtekmaj/react-pdf) | Rendering dan penampilan e-Modul PDF |
+| [React Compiler](https://react.dev/learn/react-compiler)| Optimasi performa dan rendering otomatis (Babel plugin) |
+| Font Quicksand | Tipografi utama ramah anak dari Google Fonts |
 
 ---
 
-## 📁 Struktur Proyek
+## 📁 Struktur Proyek (Sekilas)
 
 ```
 digi-kelas/
-├── public/
-│   ├── logo.svg                    # Logo aplikasi (topi wisuda + buku)
-│   ├── resa.jpeg                   # Foto profil pengembang
-│   └── pdfs/
-│       └── lkpd-bangun-datar.pdf   # File PDF lembar kerja
+├── public/                 # Aset statis, gambar, maskot, icon, data dummy
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx              # Root layout (Quicksand font, BgDecoration)
-│   │   ├── globals.css             # Tema warna, animasi kustom, base styles
-│   │   ├── icon.svg                # Favicon
-│   │   ├── not-found.tsx           # Halaman 404 kustom (maskot terkejut)
-│   │   ├── get-started/            # Halaman login (input nama siswa)
-│   │   │   └── page.tsx
-│   │   ├── about/                  # Halaman tentang (profil & tujuan pembelajaran)
-│   │   │   ├── layout.tsx          # Metadata halaman
-│   │   │   └── page.tsx
-│   │   └── (authenticated)/        # Route group terproteksi
-│   │       ├── layout.tsx          # AuthProvider wrapper (redirect jika belum login)
-│   │       ├── page.tsx            # Dashboard utama (4 kartu materi)
-│   │       ├── pre-test/           # Halaman pre-test (5 soal)
-│   │       │   └── page.tsx
-│   │       ├── materi/             # Halaman e-modul (PDF flipbook)
-│   │       │   └── page.tsx
-│   │       ├── video/              # Halaman video (YouTube + playlist)
-│   │       │   └── page.tsx
-│   │       ├── lkpd/               # Halaman LKPD (PDF viewer + sidebar)
-│   │       │   └── page.tsx
-│   │       ├── quiz/               # Halaman kuis (10 soal, timer 5 menit)
-│   │       │   └── page.tsx
-│   │       └── post-test/          # Halaman post-test (10 soal, timer 5 menit)
-│   │           └── page.tsx
-│   ├── components/
-│   │   ├── auth-provider.tsx       # Context autentikasi (useSyncExternalStore + localStorage)
-│   │   ├── bg-decoration.tsx       # Animasi bintang berkelap-kelip & awan melayang
-│   │   ├── pdf-flipbook.tsx        # PDF viewer dengan animasi flip 3D & responsive sizing
-│   │   └── icons/
-│   │       └── logo-icon.tsx       # Ikon logo SVG (buku terbuka + bintang)
-├── types/                          # Direktori tipe TypeScript (kosong)
-├── next.config.ts                  # Konfigurasi Next.js (Turbopack, React Compiler, canvas stub)
-├── empty-module.js                 # Stub modul canvas untuk kompatibilitas react-pdf
-├── package.json
-├── tsconfig.json
-├── eslint.config.mjs
-└── postcss.config.mjs
+│   │   ├── (authenticated)/# Route terproteksi (Dashboard, pre-test, quiz, minigame, dll)
+│   │   ├── about/          # Halaman tentang proyek
+│   │   ├── actions/        # Server Actions (Progress, leaderboard, score, feedback)
+│   │   ├── certificate/    # Halaman sertifikat pencapaian
+│   │   ├── change-pin/     # Halaman manajemen PIN
+│   │   ├── get-started/    # Halaman Autentikasi/Login
+│   │   ├── leaderboard/    # Papan peringkat (Klasemen)
+│   │   └── globals.css     # Animasi & utility classes
+│   ├── components/         
+│   │   ├── games/          # Komponen logic & UI Mini-Games interaktif
+│   │   └── auth-provider   # Manajemen global state autentikasi pengguna
+│   ├── data/               # Model data statis / initial seed data
+│   ├── lib/
+│   │   └── supabase/       # Konfigurasi Supabase Client & Server utilitas
+│   └── types/              # Definisi TypeScript interface
+├── next.config.ts          # Konfigurasi Next.js (termasuk Turbopack)
+└── package.json            # Daftar dependensi & npm scripts
 ```
 
 ---
@@ -131,10 +88,8 @@ digi-kelas/
 
 ### Prasyarat
 
-Pastikan Anda telah menginstal:
-
-- [Node.js](https://nodejs.org) versi **18.18** atau lebih baru
-- [npm](https://www.npmjs.com), [yarn](https://yarnpkg.com), [pnpm](https://pnpm.io), atau [bun](https://bun.sh)
+- [Node.js](https://nodejs.org) v18.18 atau lebih baru
+- Akun dan Project [Supabase](https://supabase.com)
 
 ### Instalasi
 
@@ -149,89 +104,58 @@ Pastikan Anda telah menginstal:
 
    ```bash
    npm install
-   # atau
-   yarn install
-   # atau
-   pnpm install
    ```
 
-3. **Jalankan server pengembangan**
+3. **Konfigurasi Environment Variables**
+   
+   Buat file `.env` (atau `.env.local`) di root proyek dan tambahkan kunci Supabase Anda:
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+
+4. **Jalankan server pengembangan**
 
    ```bash
    npm run dev
    ```
 
-4. **Buka di browser**
-
-   Buka [http://localhost:3000](http://localhost:3000) untuk melihat aplikasi.
-
-### Script yang Tersedia
-
-| Script | Perintah | Fungsi |
-|---|---|---|
-| Development | `npm run dev` | Jalankan server development (Turbopack) |
-| Build | `npm run build` | Build untuk produksi |
-| Start | `npm run start` | Jalankan server produksi |
-| Lint | `npm run lint` | Jalankan ESLint |
+5. **Akses Aplikasi**
+   
+   Buka [http://localhost:3000](http://localhost:3000) di browser pilihan Anda.
 
 ---
 
-## 📖 Cara Penggunaan
-
-### Alur Belajar Siswa
+## 📖 Cara Penggunaan & Alur Belajar Siswa
 
 ```
-Login (Input Nama) → Pre-Test → E-Modul & Video → LKPD → Quiz → Post-Test
+Mendaftar/Login → Dashboard Utama → Pilih Misi Belajar
+Alur Per Misi: Pre-Test → E-Modul & Video → LKPD → Mini-Game → Quiz → Post-Test → Sertifikat Kelulusan
 ```
 
-1. **Masuk ke aplikasi** — Buka halaman dan masukkan nama di halaman **Get Started**
-2. **Dashboard** — Setelah masuk, lihat kartu materi yang tersedia di dashboard
-3. **Ikuti alur belajar yang direkomendasikan:**
-   - 📝 Kerjakan **Pre-Test** untuk mengukur pemahaman awal (5 soal)
-   - 📖 Pelajari **E-Modul** tentang bangun datar (PDF flipbook)
-   - 🎬 Tonton **Video** pembelajaran (3 video)
-   - 📋 Kerjakan **LKPD** — Lembar Kerja (3 LKPD, dapat didownload)
-   - 🎮 Latihan dengan **Quiz** (10 soal, 5 menit)
-   - ✅ Kerjakan **Post-Test** untuk mengukur pemahaman akhir (10 soal, 5 menit)
-4. **Review** — Setelah submit kuis/tes, lihat review jawaban lengkap dengan skor
-5. **Logout** — Klik tombol **Keluar** di dashboard untuk keluar
+1. **Mendaftar/Masuk:** Akses halaman depan dan buat sesi dengan Nama dan PIN yang mudah diingat.
+2. **Dashboard:** Pantau progres belajar, statistik penyelesaian, dan navigasi misi di Dashboard Utama.
+3. **Mulai Misi:** Ikuti alur materi secara berurutan. Evaluasi awal (Pre-test) harus dikerjakan sebelum materi E-Modul/Video terbuka. Mini-game dan kuis akan terbuka setelah tahapan belajar selesai.
+4. **Mini-Games:** Selesaikan tantangan interaktif untuk menguatkan memori konsep ruang.
+5. **Leaderboard:** Bandingkan pencapaian Anda dengan teman-teman di Papan Peringkat.
+6. **Sertifikat:** Klaim penghargaan setiap menyelesaikan babak besar.
 
 ---
 
-## 📝 Catatan Teknis
+## 🗺️ Roadmap (Status)
 
-- **Autentikasi** bersifat client-side menggunakan `localStorage` (key: `username`). Sistem menggunakan `useSyncExternalStore` untuk sinkronisasi reaktif lintas tab melalui event `storage` dan custom event `digikelas:user`. Tidak ada backend authentication.
-
-- **react-pdf** memerlukan stub untuk modul `canvas` di lingkungan browser. Hal ini ditangani oleh file `empty-module.js` dan konfigurasi alias di `next.config.ts` (untuk Turbopack dan Webpack).
-
-- **React Compiler** diaktifkan melalui `babel-plugin-react-compiler` untuk optimasi performa otomatis.
-
-- Proyek ini menggunakan **Next.js App Router** dengan route group `(authenticated)` untuk memproteksi halaman yang memerlukan login.
-
-- **Data masih bersifat hardcoded/dummy** — daftar materi, status tugas, soal kuis, dan ID video YouTube masih statis. Integrasi **Supabase** sudah direncanakan namun belum diimplementasikan.
-
-- **Animasi kustom** didefinisikan di `globals.css`:
-  - `float` & `float-delayed` — efek mengambang untuk maskot dan dekorasi
-  - `twinkle` — efek berkelap-kelip untuk bintang
-  - `flip-forward` & `flip-backward` — animasi 3D page-turn untuk PDF flipbook
-  - `slide-in-left` & `slide-in-right` — transisi slide untuk navigasi soal kuis
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Integrasi **Supabase** untuk autentikasi dan penyimpanan data
-- [ ] Persistensi skor dan progress belajar ke database
-- [ ] Menambahkan konten untuk topik **Pecahan**, **Pengukuran**, dan **Data Sederhana**
-- [ ] Implementasi fitur **Mini-Game**
-- [ ] Menambahkan video dan PDF LKPD yang sesuai per topik
-- [ ] Tracking progress belajar per siswa secara real-time
+- [x] Desain Antarmuka & Responsivitas Layout
+- [x] Integrasi viewer PDF (Flipbook) dan Video
+- [x] Pengembangan UI sistem kuis berbatas waktu
+- [x] Integrasi **Supabase** untuk autentikasi, penyimpan sesi, dan skor
+- [x] Implementasi berbagai **Mini-Game** konsep bangun ruang
+- [x] Papan Peringkat (Leaderboard) & Sertifikat Kelulusan
 
 ---
 
 ## 📄 Lisensi
 
-Proyek ini dibuat untuk keperluan pendidikan dan penelitian.
+Proyek ini dikembangkan secara spesifik untuk tujuan pendidikan, penelitian, dan fasilitas media pembelajaran yang lebih baik.
 
 ---
 
