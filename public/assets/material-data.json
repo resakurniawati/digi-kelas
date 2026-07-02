@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "misi": 1,
+    "title": "Karakteristik Kubus dan Balok",
+    "slug": "karakteristik-kubus-dan-balok",
+    "description": "Mengenal bentuk, sisi, rusuk, dan titik sudut kubus dan balok.",
+    "tip": "Mulai dari benda yang sering kamu lihat di sekitar.",
+    "icon": "kubus-balok.svg",
+    "theme": "bg-[#FFF3CD]"
+  },
+  {
+    "id": 2,
+    "misi": 2,
+    "title": "Jaring-jaring Kubus dan Balok",
+    "slug": "jaring-jaring-kubus-dan-balok",
+    "description": "Membuka bangun ruang menjadi pola datar yang bisa dilipat kembali.",
+    "tip": "Bayangkan kamu membuka kotak kado menjadi lembaran datar.",
+    "icon": "jaring-jaring.svg",
+    "theme": "bg-[#E8F8F2]"
+  },
+  {
+    "id": 3,
+    "misi": 3,
+    "title": "Volume Kubus dan Balok",
+    "slug": "volume-kubus-dan-balok",
+    "description": "Menghitung seberapa banyak ruang yang bisa diisi di dalam bangun ruang.",
+    "tip": "Bayangkan mengisi kotak dengan kubus-kubus kecil.",
+    "icon": "volume.svg",
+    "theme": "bg-[#FFEDED]"
+  },
+  {
+    "id": 4,
+    "misi": 4,
+    "title": "Luas Permukaan Kubus dan Balok",
+    "slug": "luas-permukaan-kubus-dan-balok",
+    "description": "Menghitung total luas seluruh sisi yang membungkus bangun ruang.",
+    "tip": "Bayangkan berapa kertas kado yang dibutuhkan untuk menutup sebuah kotak.",
+    "icon": "luas-permukaan.svg",
+    "theme": "bg-[#F0F9FF]"
+  },
+  {
+    "id": 5,
+    "misi": 5,
+    "title": "Merancang Kemasan Kubus dan Balok Bagian 1",
+    "slug": "merancang-kemasan-kubus-dan-balok-bagian-1",
+    "description": "Belajar merancang kotak kemasan menggunakan konsep jaring-jaring.",
+    "tip": "Kamu akan jadi desainer kotak sungguhan di sini!",
+    "icon": "kemasan-1.svg",
+    "theme": "bg-[#F3E8FF]"
+  },
+  {
+    "id": 6,
+    "misi": 6,
+    "title": "Merancang Kemasan Kubus dan Balok Bagian 2",
+    "slug": "merancang-kemasan-kubus-dan-balok-bagian-2",
+    "description": "Melanjutkan rancangan kemasan dengan mempertimbangkan volume dan luas permukaan.",
+    "tip": "Gabungkan semua yang sudah kamu pelajari untuk membuat kemasan terbaik.",
+    "icon": "kemasan-2.svg",
+    "theme": "bg-[#FFE8F0]"
+  }
+]
