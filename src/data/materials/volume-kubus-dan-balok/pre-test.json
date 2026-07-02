@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "type": "text",
+      "content": "Ibu Rina memiliki kotak kue berbentuk kubus dengan panjang sisi 20 cm. Volume kotak tersebut adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "4.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "6.000 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "8.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "10.000 cm³"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 2,
+    "question": {
+      "type": "text",
+      "content": "Kotak sepatu berbentuk balok berukuran 30 cm × 20 cm × 15 cm. Volume kotak tersebut adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "6.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "7.500 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "8.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "9.000 cm³"
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 3,
+    "question": {
+      "type": "text",
+      "content": "Dina mempunyai dua kotak.\n- Kotak A: kubus dengan sisi 10 cm.\n- Kotak B: balok berukuran 12 cm × 10 cm × 8 cm.\nKotak yang volumenya lebih besar adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Kotak A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Kotak B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Keduanya sama"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Tidak dapat ditentukan"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 4,
+    "question": {
+      "type": "text",
+      "content": "Pak Budi ingin menyimpan mainan dalam kotak balok berukuran 40 cm × 20 cm × 15 cm. Volume kotak tersebut adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "10.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "12.000 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "14.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "16.000 cm³"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 5,
+    "question": {
+      "type": "text",
+      "content": "Volume kubus dengan panjang sisi 15 cm adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "2.250 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "3.375 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "4.500 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "5.625 cm³"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 6,
+    "question": {
+      "type": "text",
+      "content": "Tempat pensil berbentuk balok berukuran 20 cm × 8 cm × 5 cm memiliki volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "600 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "700 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "800 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "900 cm³"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 7,
+    "question": {
+      "type": "text",
+      "content": "Balok berukuran 25 cm × 16 cm × 10 cm memiliki volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "3.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "4.000 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "5.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "6.000 cm³"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 8,
+    "question": {
+      "type": "text",
+      "content": "Kubus dengan sisi 12 cm mempunyai volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "1.248 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "1.528 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "1.728 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "1.928 cm³"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 9,
+    "question": {
+      "type": "text",
+      "content": "Kemasan makanan berbentuk balok berukuran 24 cm × 15 cm × 10 cm mempunyai volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "3.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "3.600 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "4.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "4.600 cm³"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 10,
+    "question": {
+      "type": "text",
+      "content": "Sebuah kubus memiliki volume 1.000 cm³. Panjang sisinya adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "8 cm"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "9 cm"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "10 cm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "12 cm"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 11,
+    "question": {
+      "type": "text",
+      "content": "Budi memilih kemasan kubus sisi 20 cm, sedangkan Raka memilih balok berukuran 25 cm × 20 cm × 15 cm.\nKemasan yang lebih besar volumenya adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Kubus"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Balok"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Sama besar"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Tidak diketahui"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 12,
+    "question": {
+      "type": "text",
+      "content": "Ibu ingin membeli kotak penyimpanan terbesar.\n- Kotak A: 6.000 cm³\n- Kotak B: 7.200 cm³\n- Kotak C: 5.500 cm³\nPilihan terbaik adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Kotak A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Kotak B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Kotak C"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Semua sama"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 13,
+    "question": {
+      "type": "text",
+      "content": "Andi menyatakan bahwa balok berukuran 30 × 20 × 10 cm memiliki volume 5.000 cm³.\nPendapat Andi ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Benar"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Salah"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Hampir benar"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Tidak dapat diketahui"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 14,
+    "question": {
+      "type": "text",
+      "content": "Sebuah kubus sisi 18 cm mempunyai volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "5.832 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "5.328 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "6.328 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "6.832 cm³"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 15,
+    "question": {
+      "type": "text",
+      "content": "Tempat mainan berukuran 50 cm × 20 cm × 10 cm dapat menampung ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "8.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "9.000 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "10.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "11.000 cm³"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 16,
+    "question": {
+      "type": "text",
+      "content": "Jika dua kotak memiliki volume sama, maka ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "bentuknya pasti sama"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "ukurannya pasti sama"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "kapasitasnya sama"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "warnanya sama"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 17,
+    "question": {
+      "type": "text",
+      "content": "Mengapa menghitung volume penting saat merancang lemari?"
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Agar lemari lebih mahal"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Agar kapasitas sesuai kebutuhan"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Agar warnanya bagus"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Agar lebih berat"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 18,
+    "question": {
+      "type": "text",
+      "content": "Kotak A volumenya 4.500 cm³, sedangkan Kotak B volumenya 6.000 cm³. Kotak yang lebih banyak menampung barang adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Kotak A"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Kotak B"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Sama"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Tidak dapat diketahui"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 19,
+    "question": {
+      "type": "text",
+      "content": "Sikap yang diperlukan saat menghitung volume proyek adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Ceroboh"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Tergesa-gesa"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Teliti"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Menyontek"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 20,
+    "question": {
+      "type": "text",
+      "content": "Volume digunakan untuk mengetahui ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "panjang benda"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "banyak ruang yang dapat diisi"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "warna benda"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "berat benda"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 21,
+    "question": {
+      "type": "text",
+      "content": "Kamu diminta membuat kotak hadiah berbentuk kubus dengan volume besar. Hal pertama yang harus dilakukan adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Menghias kotak"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Menentukan ukuran sisi"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Membeli pita"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Menimbang kotak"
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 22,
+    "question": {
+      "type": "text",
+      "content": "Untuk membuat rak sederhana berbentuk balok, kamu harus menentukan ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "panjang, lebar, dan tinggi"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "warna rak"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "harga kayu"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "jumlah teman"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 23,
+    "question": {
+      "type": "text",
+      "content": "Rina ingin membuat tempat alat tulis berkapasitas 1.000 cm³. Kubus yang sesuai memiliki sisi ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "8 cm"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "9 cm"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "10 cm"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "12 cm"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 24,
+    "question": {
+      "type": "text",
+      "content": "Kotak makanan dengan ukuran 20 cm × 15 cm × 10 cm memiliki volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "2.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "2.500 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "3.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "3.500 cm³"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 25,
+    "question": {
+      "type": "text",
+      "content": "Dalam membuat proyek kemasan, peserta didik perlu menunjukkan sikap ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Kreatif"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Malas"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Acuh tak acuh"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Bergantung pada teman"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 26,
+    "question": {
+      "type": "text",
+      "content": "Balok berukuran 40 cm × 20 cm × 5 cm memiliki volume ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "2.000 cm³"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "3.000 cm³"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "4.000 cm³"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "5.000 cm³"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 27,
+    "question": {
+      "type": "text",
+      "content": "Saat bekerja dalam kelompok membuat model kotak, peserta didik menunjukkan sikap ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Gotong royong"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Egois"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Malas"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Tidak peduli"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 28,
+    "question": {
+      "type": "text",
+      "content": "Jika hasil perhitungan volume ternyata salah, tindakan yang tepat adalah ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Membiarkannya"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Menyalin milik teman"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Memeriksa dan memperbaiki"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Menghapus seluruh pekerjaan"
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 29,
+    "question": {
+      "type": "text",
+      "content": "Ketika mempresentasikan hasil proyek rancangan kotak, peserta didik menunjukkan sikap ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Percaya diri"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Takut mencoba"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Menyerah"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Pemalu"
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 30,
+    "question": {
+      "type": "text",
+      "content": "Kemampuan merancang kotak penyimpanan berdasarkan kebutuhan pengguna menunjukkan kemampuan ...."
+    },
+    "options": [
+      {
+        "label": "A",
+        "type": "text",
+        "content": "Menghafal"
+      },
+      {
+        "label": "B",
+        "type": "text",
+        "content": "Meniru"
+      },
+      {
+        "label": "C",
+        "type": "text",
+        "content": "Menciptakan solusi pemecahan masalah"
+      },
+      {
+        "label": "D",
+        "type": "text",
+        "content": "Bermain biasa"
+      }
+    ],
+    "correct": "C"
+  }
+]

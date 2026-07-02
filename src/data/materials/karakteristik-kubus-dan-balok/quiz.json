@@ -1,0 +1,607 @@
+{
+  "title": "Quiz Bangun Ruang: karakteristik Kubus dan Balok",
+  "description": "20 soal pilihan ganda tentang karakteristik bangun ruang. Jawab dengan teliti!",
+  "durationSeconds": 1500,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Doni mengatakan bahwa semua bangun ruang yang memiliki 6 sisi adalah kubus. Pernyataan tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar, karena semua bangun bersisi 6 adalah kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah, karena balok juga memiliki 6 sisi."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Benar, karena kubus mempunyai 6 sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Salah, karena kubus memiliki 8 sisi."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan karakteristik berikut!\n1. Memiliki 6 sisi berbentuk persegi.\n2. Memiliki 12 rusuk sama panjang.\n3. Memiliki 8 titik sudut.\nBangun ruang yang memenuhi semua karakteristik tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Sebuah bangun ruang memiliki 6 sisi, 12 rusuk, dan 8 titik sudut. Namun, panjang rusuknya tidak semuanya sama.\nBangun tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Manakah pasangan benda berikut yang keduanya memiliki karakteristik balok?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Rubik dan dadu"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kardus sepatu dan akuarium"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Rubik dan kardus susu kubus"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Dadu dan rubik"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Rina membuat kerangka bangun ruang menggunakan 12 batang kayu yang semuanya sama panjang.\nBangun yang paling mungkin dibuat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Pernyataan berikut yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Semua balok adalah kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Semua kubus adalah balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Kubus tidak mempunyai sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Balok memiliki lebih dari 12 rusuk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Suatu bangun ruang memiliki semua sisi berbentuk persegi, tetapi panjang semua rusuk tidak sama.\nKesimpulan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Bangun tersebut kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Bangun tersebut balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Pernyataan tersebut tidak mungkin terjadi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Bangun tersebut prisma."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan pernyataan berikut!\n- Bangun P: Memiliki semua rusuk sama panjang dan semua sisi berbentuk persegi.\n- Bangun Q: Panjang rusuknya tidak semuanya sama dan sisinya tidak semuanya berbentuk persegi.\nBangun P dan Q berturut-turut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok dan Kubus"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kubus dan Balok"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Kubus dan Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Balok dan Prisma"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Jika sebuah kubus diperpanjang salah satu ukurannya sehingga tidak semua rusuk sama panjang, bangun tersebut berubah menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Limas"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tabung"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Sebuah benda mempunyai karakteristik:\n- Semua rusuk sama panjang.\n- Semua sisi kongruen.\n- Memiliki 8 titik sudut.\nBenda tersebut kemungkinan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kardus sepatu"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Rubik"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Kotak pensil"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Akuarium"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Mengapa kardus televisi tidak dapat disebut kubus?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena memiliki 8 sisi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena memiliki 12 titik sudut."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena panjang rusuknya tidak sama."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena memiliki 6 rusuk."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan pernyataan berikut.\n(1) Semua sisi kubus kongruen.\n(2) Semua sisi balok kongruen.\n(3) Semua rusuk kubus sama panjang.\n(4) Balok memiliki 12 rusuk.\nPernyataan yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "(1), (2), dan (3)"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "(1), (3), dan (4)"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "(2), (3), dan (4)"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Semua benar"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Suatu bangun ruang memiliki 6 sisi berbentuk persegi panjang.\nBangun tersebut pasti ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat dipastikan"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan dua bangun berikut.\nBangun A memiliki semua rusuk sama panjang.\nBangun B memiliki tiga pasang rusuk yang sama panjang.\nHubungan kedua bangun tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Keduanya kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "A kubus, B balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "A balok, B kubus."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Keduanya balok."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa mengatakan bahwa kubus dan balok berbeda karena jumlah rusuknya berbeda.\nPendapat tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah, karena jumlah rusuk keduanya sama."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Benar, karena balok memiliki lebih banyak rusuk."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Manakah pernyataan berikut yang PALING tepat?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Semua sisi balok berbentuk persegi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Semua sisi kubus berbentuk persegi."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Semua rusuk balok sama panjang."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Kubus memiliki 10 rusuk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan karakteristik berikut.\n- Memiliki 6 sisi.\n- Memiliki 12 rusuk.\n- Memiliki 8 titik sudut.\n- Tiga ukuran rusuk berbeda.\nBangun tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Jika semua ukuran panjang, lebar, dan tinggi sebuah balok dibuat sama, maka bangun tersebut menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Limas"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tabung"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan empat benda berikut.\n1. Rubik\n2. Kardus mie instan\n3. Dadu\n4. Kotak hadiah berbentuk kubus\nKelompok benda yang memiliki karakteristik kubus adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1, 2, dan 3"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "1, 3, dan 4"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "2, 3, dan 4"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Semua benar"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan simpulan berikut.\n\"Kubus merupakan balok yang memiliki panjang, lebar, dan tinggi sama.\"\nSimpulan tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar karena memenuhi seluruh karakteristik kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah karena kubus bukan balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Salah karena kubus mempunyai sisi lebih banyak."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Salah karena balok tidak mempunyai titik sudut."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+[
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan ingin membuat kemasan berbentuk kubus. Syarat utama jaring-jaring yang digunakan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "terdiri atas 5 persegi"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "terdiri atas 6 persegi yang dapat dilipat tanpa saling bertumpuk"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "terdiri atas 6 persegi panjang"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "memiliki 8 sisi"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Rani menyusun enam persegi menjadi sebuah pola. Setelah dicoba dilipat, dua sisi saling bertumpuk.\nKesimpulan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Pola tersebut merupakan jaring-jaring kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Pola tersebut bukan jaring-jaring kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Pola tersebut merupakan jaring-jaring balok."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Pola tersebut dapat menjadi limas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Mengapa tidak semua susunan enam persegi dapat dijadikan jaring-jaring kubus?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena jumlah perseginya kurang."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena posisi sisi-sisinya belum tentu dapat dilipat menjadi kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena kubus memiliki tujuh sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena semua persegi harus berjajar lurus."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kemasan sabun berbentuk balok akan dibuat dari karton. Jaring-jaring yang benar harus memiliki ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "enam persegi"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "enam persegi panjang dengan tiga pasang sisi yang sama ukuran"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "delapan persegi panjang"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "lima persegi panjang"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Saat membuat kemasan hadiah, desainer menambahkan lipatan kecil di beberapa sisi jaring-jaring. Fungsi lipatan tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "memperbesar volume kemasan"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "memudahkan penyambungan saat dirakit"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "mengurangi jumlah sisi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "memperpanjang rusuk kemasan"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Mengapa jaring-jaring perlu diuji coba dengan cara dilipat sebelum dicetak dalam jumlah banyak?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Agar warna lebih menarik."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Untuk memastikan semua sisi bertemu dengan tepat."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Agar ukuran karton bertambah."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Untuk mengurangi jumlah sisi."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring balok seluruh sisinya berbentuk persegi.\nPernyataan tersebut menunjukkan bahwa ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "jaring-jaring tersebut membentuk balok."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "jaring-jaring tersebut membentuk kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "jaring-jaring tersebut tidak dapat dilipat."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "jaring-jaring tersebut membentuk prisma."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan ingin membuat kemasan pasta gigi berbentuk balok. Mengapa menggunakan jaring-jaring kubus kurang tepat?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena kubus memiliki lebih banyak sisi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena ukuran semua sisi kubus sama, sedangkan balok memiliki sisi dengan ukuran berbeda."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena balok memiliki tujuh sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena kubus memiliki lebih banyak rusuk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Jika salah satu sisi pada jaring-jaring balok tidak dibuat, maka hasil akhirnya adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "balok tetap sempurna"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "kemasan memiliki bagian yang terbuka"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "berubah menjadi kubus"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "berubah menjadi prisma"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Dua kelompok membuat rancangan kemasan.\nKelompok A menghasilkan jaring-jaring yang dapat dirakit sempurna.\nKelompok B menghasilkan jaring-jaring yang menyebabkan dua sisi bertumpuk.\nKelompok yang menghasilkan rancangan terbaik adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kelompok A"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kelompok B"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak ada"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Saat merancang kemasan kubus, semua sisi harus memiliki ukuran yang sama karena ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "jumlah rusuk menjadi lebih sedikit"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "kubus memiliki enam sisi yang kongruen"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "volume bertambah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "karton menjadi lebih tebal"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Mengapa posisi setiap sisi pada jaring-jaring sangat penting?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Agar gambar pada kemasan lebih menarik."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Agar semua sisi bertemu dengan benar saat dilipat."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Agar kemasan memiliki lebih banyak sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Agar rusuk menjadi lebih panjang."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring terdiri atas enam persegi panjang yang semuanya berbeda ukuran.\nKesimpulan yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Dapat membentuk balok."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Tidak dapat membentuk balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Dapat membentuk kubus."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Dapat membentuk prisma."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kemasan makanan dibuat berbentuk balok agar sesuai dengan ukuran produk di dalamnya. Hal ini menunjukkan bahwa bentuk kemasan dipilih berdasarkan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "warna kemasan"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "fungsi dan ukuran isi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "banyaknya titik sudut"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "jumlah rusuk"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa mengatakan bahwa semua jaring-jaring yang memiliki enam persegi pasti membentuk kubus.\nPendapat tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "benar"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "salah karena susunan perseginya juga menentukan"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "benar jika ukurannya sama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "tidak dapat ditentukan"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kemasan berbentuk kubus akan diberi gambar logo pada sisi depan. Sebelum mencetak, desainer harus mengetahui ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "volume kemasan"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "letak sisi depan pada jaring-jaring"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "jumlah rusuk"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "warna karton"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan memilih jaring-jaring yang menggunakan karton lebih hemat tanpa mengubah bentuk kemasan.\nKeputusan tersebut menunjukkan pertimbangan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "estetika"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "efisiensi penggunaan bahan"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "warna produk"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "harga tinta"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Jika salah satu sisi jaring-jaring kubus dibuat lebih besar daripada sisi lainnya, maka ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "tetap membentuk kubus"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "tidak dapat membentuk kubus sempurna"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "menjadi balok"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menjadi prisma"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Mengapa perusahaan lebih memilih desain kemasan yang mudah dirakit?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Mengurangi waktu dan biaya produksi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Menambah jumlah sisi."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Mengurangi volume."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Memperbesar rusuk."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan dua desain kemasan.\n- Desain A dapat dilipat dengan baik.\n- Desain B memiliki satu sisi yang tidak dapat menutup.\nDesain yang layak digunakan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "A"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "B"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak ada"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 21,
+      "question": {
+        "type": "text",
+        "content": "Saat mengevaluasi jaring-jaring kemasan, aspek yang tidak perlu diperhatikan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "ketepatan posisi sisi"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "kemudahan dilipat"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kesesuaian ukuran sisi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "warna isi produk"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 22,
+      "question": {
+        "type": "text",
+        "content": "Mengapa jaring-jaring balok memiliki pasangan sisi yang sama ukuran?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Agar jumlah rusuk bertambah."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena sisi yang saling berhadapan harus kongruen."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Agar volumenya lebih besar."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Agar lebih mudah digambar."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 23,
+      "question": {
+        "type": "text",
+        "content": "Seorang desainer membuat tiga rancangan kemasan. Setelah diuji, hanya satu rancangan yang dapat dilipat tanpa celah dan tanpa sisi bertumpuk.\nRancangan yang dipilih adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "rancangan yang paling besar"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "rancangan yang paling berwarna"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "rancangan yang memenuhi syarat jaring-jaring"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "semua rancangan"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 24,
+      "question": {
+        "type": "text",
+        "content": "Sebuah toko ingin membuat kemasan berbentuk kubus untuk suvenir. Selain bentuk yang benar, hal penting yang harus diperhatikan agar kemasan kuat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "adanya lipatan perekat pada bagian yang sesuai"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "memperbanyak jumlah sisi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "mengurangi jumlah rusuk"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "membuat sisi berbeda ukuran"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 25,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan memiliki dua rancangan kemasan kubus.\n- Rancangan A mudah dirakit, kuat, dan menggunakan bahan secara efisien.\n- Rancangan B sulit dirakit dan banyak bagian karton terbuang.\nKeputusan terbaik adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Memilih rancangan B karena lebih unik."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Memilih kedua rancangan."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Memilih rancangan A karena memenuhi fungsi dan efisiensi produksi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak memilih keduanya."
+        }
+      ],
+      "correct": "C"
+    }
+  ]

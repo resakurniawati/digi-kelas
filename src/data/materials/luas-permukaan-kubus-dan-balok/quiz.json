@@ -1,0 +1,607 @@
+{
+  "title": "Quiz Luas Permukaan Kubus dan Balok",
+  "description": "20 soal pilihan ganda tentang menghitung luas permukaan bangun ruang kubus dan balok. Jawab dengan teliti!",
+  "durationSeconds": 2400,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus memiliki panjang rusuk 8 cm. Luas permukaan kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "192 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "256 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "384 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "768 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki panjang 12 cm, lebar 8 cm, dan tinggi 5 cm. Luas permukaannya adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "232 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "392 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "472 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "512 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Rusuk sebuah kubus diperbesar menjadi 2 kali semula. Luas permukaannya menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2 kali lebih besar"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "3 kali lebih besar"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "4 kali lebih besar"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "8 kali lebih besar"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Dua kubus memiliki rusuk masing-masing 6 cm dan 10 cm. Selisih luas permukaan kedua kubus adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "216 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "384 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "456 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "600 cm²"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki ukuran 15 cm × 8 cm × 5 cm. Jika tingginya menjadi dua kali semula, luas permukaannya menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "550 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "610 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "700 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "760 cm²"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus memiliki luas permukaan 600 cm². Panjang rusuk kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "8 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "10 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "12 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "15 cm"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Pak Budi ingin mengecat seluruh permukaan sebuah balok berukuran 10 cm × 8 cm × 6 cm.\nLuas permukaan yang akan dicat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "208 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "256 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "376 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "448 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus mempunyai luas permukaan 864 cm².\nVolume kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1.728 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "2.048 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "2.744 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "3.375 cm³"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki luas permukaan 214 cm².\nJika panjang = 8 cm, lebar = 5 cm, maka tinggi balok adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "3 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "5 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "6 cm"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan dua bangun berikut.\nKubus A memiliki rusuk 7 cm.\nKubus B memiliki rusuk 9 cm.\nPerbandingan luas permukaan A : B adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "49 : 81"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "7 : 9"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "14 : 18"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "343 : 729"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Semua ukuran sebuah balok diperbesar menjadi 3 kali semula.\nLuas permukaan balok menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "3 kali"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "6 kali"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "9 kali"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "27 kali"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kotak hadiah berbentuk kubus akan dibungkus seluruh permukaannya.\nJika panjang rusuknya 15 cm, luas kertas pembungkus minimum yang diperlukan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "900 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "1.200 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.350 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.500 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki ukuran panjang 14 cm, lebar 10 cm, dan tinggi 6 cm.\nJika panjang dikurangi menjadi 10 cm, luas permukaannya akan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Bertambah"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Berkurang"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Tetap"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan pernyataan berikut.\n- (1) Kubus memiliki luas permukaan terbesar jika dibandingkan balok dengan volume sama.\n- (2) Kubus memiliki semua sisi sama luas.\n- (3) Balok memiliki tiga pasang sisi kongruen.\nPernyataan yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "(1) saja"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "(2) dan (3)"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "(1) dan (2)"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Semua benar"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Luas permukaan sebuah kubus adalah 294 cm².\nPanjang rusuk kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "5 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "6 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "7 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "8 cm"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki ukuran 20 cm × 10 cm × 8 cm.\nJika lebarnya diperkecil menjadi 5 cm, luas permukaannya menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "520 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "560 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "600 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "640 cm²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus memiliki luas permukaan 486 cm².\nJika rusuk kubus diperkecil menjadi setengahnya, luas permukaan baru adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "121,5 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "243 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "194,4 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "324 cm²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok berukuran 16 cm × 12 cm × 8 cm.\nLuas permukaan balok tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "832 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "896 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "928 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "960 cm²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Dua balok memiliki volume yang sama.\nBalok pertama berbentuk hampir menyerupai kubus, sedangkan balok kedua sangat panjang dan sempit.\nManakah yang cenderung memiliki luas permukaan lebih kecil?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok pertama"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok kedua"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya sama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan ingin membuat kemasan dengan volume tetap, tetapi menggunakan bahan karton sesedikit mungkin.\nBentuk yang paling tepat dipilih adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok yang sangat panjang"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok yang sangat pipih"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Semua bentuk sama"
+        }
+      ],
+      "correct": "C"
+    }
+  ]
+}

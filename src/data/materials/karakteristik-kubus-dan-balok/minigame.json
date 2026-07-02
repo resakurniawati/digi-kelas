@@ -1,0 +1,59 @@
+{
+  "id": "m1-minigame",
+  "type": "custom",
+  "componentId": "kubus-balok-sorter",
+  "title": "Pilah Benda Kubus & Balok",
+  "description": "Tentukan apakah benda-benda di bawah ini berbentuk Kubus atau Balok. Hati-hati, ada yang bukan keduanya!",
+  "data": {
+    "items": [
+      {
+        "id": "1",
+        "name": "Dadu",
+        "image": "dice",
+        "correctType": "kubus"
+      },
+      {
+        "id": "2",
+        "name": "Kotak Sepatu",
+        "image": "shoebox",
+        "correctType": "balok"
+      },
+      {
+        "id": "3",
+        "name": "Buku Tulis",
+        "image": "book",
+        "correctType": "balok"
+      },
+      {
+        "id": "4",
+        "name": "Rubik",
+        "image": "rubik",
+        "correctType": "kubus"
+      },
+      {
+        "id": "5",
+        "name": "Lemari Pakaian",
+        "image": "wardrobe",
+        "correctType": "balok"
+      },
+      {
+        "id": "6",
+        "name": "Bola Basket",
+        "image": "basketball",
+        "correctType": "lainnya"
+      },
+      {
+        "id": "7",
+        "name": "Es Batu (Kotak)",
+        "image": "icecube",
+        "correctType": "kubus"
+      },
+      {
+        "id": "8",
+        "name": "Kulkas",
+        "image": "fridge",
+        "correctType": "balok"
+      }
+    ]
+  }
+}

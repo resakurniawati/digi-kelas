@@ -1,0 +1,607 @@
+{
+  "title": "Quiz Analisis Volume dan Luas Permukaan Kemasan",
+  "description": "20 soal pilihan ganda tentang analisis perbandingan volume dan luas permukaan dalam merancang kemasan. Jawab dengan teliti!",
+  "durationSeconds": 1800,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan ingin membuat kemasan berbentuk kubus dengan rusuk 10 cm. Kemasan akan dilapisi kertas pada seluruh bagian luarnya. Luas kertas minimum yang diperlukan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "400 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "500 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "600 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.000 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kotak hadiah berbentuk balok berukuran 20 cm × 10 cm × 5 cm. Volume kotak tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "350 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "750 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.000 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.500 cm³"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Dua kemasan memiliki volume yang sama.\n- Kemasan A berbentuk hampir kubus.\n- Kemasan B berbentuk sangat panjang dan sempit.\nKemasan yang cenderung membutuhkan karton lebih sedikit adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kemasan A"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kemasan B"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya sama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kemasan kubus memiliki volume 729 cm³. Panjang rusuk kemasan tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "7 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "8 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "9 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "10 cm"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Perusahaan ingin memperbesar kapasitas kemasan kubus menjadi 2 kali volume semula, tetapi tetap menghemat bahan pembungkus. Langkah yang paling tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Memilih ukuran rusuk baru yang volumenya mendekati dua kali, bukan langsung menggandakan rusuk."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Menggandakan panjang rusuk."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Menambah satu sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Mengubah kemasan menjadi tabung."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok berukuran 12 cm × 8 cm × 5 cm memiliki luas permukaan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "232 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "272 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "392 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "472 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Jika semua ukuran sebuah kemasan balok diperbesar menjadi dua kali semula, maka volumenya menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2 kali"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4 kali"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "6 kali"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "8 kali"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Mengapa perusahaan tidak hanya mempertimbangkan volume saat merancang kemasan?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena volume menentukan warna kemasan."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena luas permukaan menentukan banyaknya bahan yang diperlukan."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena volume menentukan jumlah sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena luas permukaan menentukan bentuk lingkaran."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus memiliki luas permukaan 864 cm². Volume kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1.728 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "2.048 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "2.744 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "3.375 cm³"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan memiliki dua desain kemasan dengan volume sama. Desain pertama membutuhkan karton lebih sedikit.\nKeputusan terbaik adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Memilih desain pertama."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Memilih desain kedua."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Menggunakan kedua desain."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Membuat desain baru tanpa mempertimbangkan bahan."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki ukuran 15 cm × 10 cm × 8 cm. Luas permukaan balok tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "580 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "620 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "700 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "760 cm²"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Jika panjang rusuk kubus diperbesar menjadi tiga kali semula, maka luas permukaan menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "3 kali"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "6 kali"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "9 kali"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "27 kali"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Mengapa bentuk kubus sering dipilih sebagai kemasan hadiah mewah?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena memiliki volume paling kecil."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena semua sisinya sama sehingga efisien dan tampak simetris."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena memiliki lebih banyak sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena tidak membutuhkan karton."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kotak makanan berbentuk balok memiliki volume 960 cm³. Jika panjang 12 cm dan lebar 10 cm, maka tingginya adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "6 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "7 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "8 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "9 cm"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Seorang desainer membuat dua kemasan dengan volume sama. Salah satunya memiliki luas permukaan lebih kecil.\nKeuntungan desain tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Isi kemasan bertambah."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Membutuhkan bahan pembungkus lebih sedikit."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Jumlah sisi berkurang."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Volume menjadi lebih besar."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus mempunyai rusuk 15 cm. Volume kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2.250 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "2.700 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "3.375 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "4.050 cm³"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Perusahaan ingin membuat kemasan dengan kapasitas besar tetapi biaya karton serendah mungkin.\nHal yang harus dianalisis secara bersamaan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Warna dan gambar kemasan."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Volume dan luas permukaan."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Jumlah rusuk dan titik sudut."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Banyaknya lipatan jaring-jaring."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok memiliki ukuran 18 cm × 10 cm × 6 cm. Volumenya adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "960 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "1.000 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.080 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.200 cm³"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Dua perusahaan membuat kemasan dengan volume sama.\nPerusahaan A memilih bentuk yang luas permukaannya lebih kecil.\nPerusahaan B memilih bentuk yang luas permukaannya lebih besar.\nJika harga karton sama, perusahaan yang mengeluarkan biaya lebih hemat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Perusahaan A"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Perusahaan B"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya sama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan akan membuat kemasan baru untuk produk yang sama. Tujuan utamanya adalah mengurangi biaya produksi tanpa mengurangi kapasitas isi.\nPilihan terbaik adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Memilih desain yang memiliki volume tetap tetapi luas permukaan lebih kecil."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Memilih desain dengan luas permukaan lebih besar."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Memperkecil volume kemasan."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Memperbesar semua ukuran kemasan."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

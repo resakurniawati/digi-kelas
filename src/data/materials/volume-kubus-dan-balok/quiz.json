@@ -1,0 +1,607 @@
+{
+  "title": "Quiz Pemecahan Masalah Volume Kubus dan Balok",
+  "description": "20 soal pilihan ganda HOTS berdasarkan instrumen tes pemahaman konsep George Polya. Siapkan kertas coretan dan jawab dengan teliti!",
+  "durationSeconds": 2400,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Budi memiliki akuarium berukuran 60 cm x 40 cm x 50 cm yang sudah terisi air sebanyak 3/4 bagian. Budi ingin memasukkan beberapa hiasan batu yang total volumenya 12.000 cm³. Berdasarkan informasi tersebut, apa yang akan terjadi pada air di dalam akuarium?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Air tumpah karena sisa ruang hanya 10.000 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Air tidak tumpah karena sisa ruang masih tersedia 30.000 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Air tumpah sebanyak 2.000 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Air akan tepat rata dengan bibir akuarium tanpa sisa ruang"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Rani ingin membungkus kado berbentuk kubus dengan rusuk 25 cm. Ia memiliki kertas kado seluas 4.000 cm² dan aturan mewajibkan tambahan 10% dari luas permukaan kado untuk lipatan lem. Apakah kertas kado Rani cukup?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Cukup, karena luas kado hanya 3.750 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Tidak cukup, karena total luas kertas yang dibutuhkan adalah 4.125 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Cukup, karena sisa kertas masih 250 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak cukup, karena total luas kertas yang dibutuhkan adalah 4.500 cm²"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus besar seharusnya disusun dari kubus satuan 1 cm³ hingga berukuran 4 cm x 4 cm x 4 cm. Namun, setelah dihitung ternyata hanya ada 52 kubus satuan yang terpasang. Berapa banyak kubus satuan yang hilang? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "8 buah"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "10 buah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "12 buah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "16 buah"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Kotak A berbentuk balok berukuran 10 cm x 8 cm x 6 cm. Kotak B memiliki panjang dan lebar yang sama dengan Kotak A, namun volumenya 3 kali lebih besar dari Kotak A. Berapakah tinggi Kotak B? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "12 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "16 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "18 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "24 cm"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Sebuah bak mandi balok (tanpa tutup) memiliki panjang 1,2 m, lebar 1 m, dan tinggi 0,8 m. Bagian luar bak tegak akan dicat. Jika satu kaleng cat bisa menutup area seluas 2 m², berapa kaleng cat yang harus dibeli? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1 kaleng"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "2 kaleng"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "3 kaleng"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "4 kaleng"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Andi memiliki kawat 10 meter. Ia ingin membuat 2 kerangka kubus berusuk 15 cm dan 3 kerangka balok berukuran 20 cm x 15 cm x 10 cm. Berapa sentimeter sisa kawat Andi? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "100 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "150 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "200 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "250 cm"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Jika panjang rusuk sebuah kubus diperbesar menjadi dua kali lipat dari panjang semula , berapakah perbandingan kenaikan volumenya terhadap volume semula? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2 kali lipat"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4 kali lipat"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "6 kali lipat"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "8 kali lipat"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Sebuah wadah kubus berusuk 20 cm terisi penuh air. Air tersebut dituang seluruhnya ke dalam wadah balok kosong berukuran panjang 40 cm dan lebar 10 cm. Berapakah tinggi air pada wadah balok tersebut? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "10 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "15 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "20 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "25 cm"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Sebuah bak sampah kubus tanpa tutup memiliki panjang rusuk 80 cm. Jika dibuat dari beton dengan biaya Rp150.000,00 per meter persegi , berapakah total biaya pembuatannya? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Rp384.000,00"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Rp480.000,00"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Rp576.000,00"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Rp720.000,00"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Kolam renang balok memiliki panjang 10 m, lebar 5 m, dan kedalaman 2 m. Bagian dalam kolam akan dipasang ubin 20 cm x 20 cm. Berapa jumlah ubin yang dibutuhkan? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2.500 buah"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "2.750 buah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "3.000 buah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "3.250 buah"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Sebuah mainan terbuat dari balok berukuran 12 cm x 8 cm x 5 cm dan di atasnya ditempelkan kubus bersisi 4 cm. Berapa total volume gabungan mainan tersebut? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "500 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "544 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "560 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "584 cm³"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Tangki air balok berukuran 1,5 m x 1 m x 1,2 m penuh berisi air. Setelah digunakan untuk menyiram, tinggi air berkurang dan tersisa 40 cm. Berapa liter air yang telah digunakan? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "600 liter"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "800 liter"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.000 liter"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.200 liter"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Seorang pengrajin membuat rangka akuarium dari besi berukuran 100 cm x 50 cm x 60 cm. Harga besi adalah Rp20.000,00 per meter. Berapa total biaya untuk membeli besi tersebut? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Rp148.000,00"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Rp168.000,00"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Rp184.000,00"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Rp210.000,00"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Kubus A memiliki rusuk 6 cm dan Kubus B memiliki rusuk 9 cm. Berapakah selisih luas permukaan kedua kubus tersebut? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "216 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "250 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "270 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "486 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Kardus besar berukuran 60 cm x 40 cm x 30 cm akan diisi penuh dengan kotak susu berukuran 10 cm x 5 cm x 4 cm. Berapakah jumlah maksimal kotak susu yang dapat dimasukkan? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "300 buah"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "320 buah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "360 buah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "400 buah"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Seseorang menyatakan bahwa jika rusuk kubus diperbesar 3 kali lipat, volumenya otomatis menjadi 9 kali lipat dari semula. Pernyataan tersebut adalah .... "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar, karena 3 x 3 = 9"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah, seharusnya menjadi 12 kali lipat"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Salah, seharusnya menjadi 27 kali lipat"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Benar, karena volume berbanding lurus dengan rusuk"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring 6 persegi identik saat ditekuk mengalami dua sisi bertumpuk dan satu bagian dibiarkan terbuka. Mengapa hal ini terjadi berdasarkan sifat-sifat bangun ruang? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena jumlah perseginya kurang dari 6"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena susunan polanya tidak mengikuti pola jaring-jaring kubus yang benar"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena ukuran perseginya tidak sama besar"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena kubus tidak memiliki sisi yang sejajar"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Balok P berukuran 4x4x4 cm dan Balok Q berukuran 8x4x2 cm memiliki volume yang persis sama. Manakah di antara keduanya yang membutuhkan bahan kulit luar (luas permukaan) paling sedikit? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok P, karena luas permukaannya 96 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok Q, karena luas permukaannya 112 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya membutuhkan bahan yang persis sama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat dihitung tanpa mengetahui jenis bahannya"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Seorang tukang menghitung volume tangki 2 m x 1 m x 1,5 m dengan cara menjumlahkannya sehingga didapat hasil 4,5 m³. Kesalahan terjadi pada proses hitung tukang tersebut. Berapakah volume yang sebenarnya? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2 m³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "3 m³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "4 m³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "5 m³"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Sebuah wadah berbentuk balok memiliki kapasitas total 1.500 cm³. Jika dituangkan air sebanyak 1,6 liter ke dalamnya, apa yang akan terjadi? "
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Air tertampung semua dengan sisa ruang 100 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Air tertampung pas sampai batas wadah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Air tumpah sebanyak 100 ml karena melebihi kapasitas wadah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Air tumpah sebanyak 10 ml karena wadah bocor"
+        }
+      ],
+      "correct": "C"
+    }
+  ]
+}

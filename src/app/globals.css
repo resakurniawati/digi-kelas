@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+:root {
+  /* --background: #f8f9fa; */
+  --background: #eaf6ff;
+  --foreground: #171717;
+
+  /* Doc Root Font Size */
+  /* font-size: 18px; */
+}
+
+@theme {
+  /* Theme Color */
+  --color-primary: #0984e3;
+  --color-accent: #00b894;
+  --color-border: #b8dfff;
+  /* Misc */
+  --color-primary-container: #f0f9ff;
+  --color-primary-dark: #0878ce;
+  --color-accent-dark: #00a882;
+  /* Error */
+  --color-error: #ef4444;
+  --color-error-bg: #ffe5e5;
+  --color-error-border: #ffb3b3;
+  --radius-2.5xl: 1.25rem;
+
+  /* Typography */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-quicksand: var(--font-quicksand);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  @apply font-quicksand select-none;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+}
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+  /* Definisi Animasi Khusus untuk Float & Twinkle */
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes float-delayed {
+    0%,
+    100% {
+      transform: translateY(0px) rotate(10deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(-5deg);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  .animate-float-delayed {
+    animation: float-delayed 4s ease-in-out infinite;
+  }
+  .animate-twinkle {
+    animation: twinkle 2s infinite ease-in-out;
+  }
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  .delay-800 {
+    animation-delay: 0.8s;
+  }
+  .delay-1200 {
+    animation-delay: 1.2s;
+  }
+
+  input,
+  textarea {
+    @apply w-full border-[2.5px] border-border rounded-[18px] px-5 py-3.5 text-lg font-semibold text-foreground bg-primary-container outline-none transition-all duration-200 focus:border-primary focus:bg-white placeholder:text-gray-400 placeholder:font-medium;
+  }
+
+  /* Flip-book page turn animations */
+  @keyframes flip-forward {
+    0% {
+      opacity: 1;
+      transform: perspective(1200px) rotateY(0deg);
+    }
+    40% {
+      opacity: 0.6;
+      transform: perspective(1200px) rotateY(-8deg) scale(0.97);
+    }
+    100% {
+      opacity: 1;
+      transform: perspective(1200px) rotateY(0deg);
+    }
+  }
+
+  @keyframes flip-backward {
+    0% {
+      opacity: 1;
+      transform: perspective(1200px) rotateY(0deg);
+    }
+    40% {
+      opacity: 0.6;
+      transform: perspective(1200px) rotateY(8deg) scale(0.97);
+    }
+    100% {
+      opacity: 1;
+      transform: perspective(1200px) rotateY(0deg);
+    }
+  }
+
+  .animate-flip-forward {
+    animation: flip-forward 0.5s ease-in-out;
+  }
+
+  .animate-flip-backward {
+    animation: flip-backward 0.5s ease-in-out;
+  }
+
+  /* Quiz / Post-test slide transitions */
+  @keyframes slide-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in-left {
+    animation: slide-in-left 0.3s ease-out;
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.3s ease-out;
+  }
+
+  /* react-pdf overrides for clean look */
+  .react-pdf__Page {
+    display: flex !important;
+    justify-content: center !important;
+    max-width: 100% !important;
+    max-height: 75vh !important;
+  }
+
+  .react-pdf__Page__canvas {
+    border-radius: 0.5rem;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  .react-pdf__Page__textContent {
+    user-select: text;
+  }
+}

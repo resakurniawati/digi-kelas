@@ -1,0 +1,67 @@
+{
+  "id": "minigame-luas-permukaan",
+  "title": "Tukang Cat Ahli",
+  "description": "Bantu tukang cat menghitung luas permukaan bangun ruang agar cat yang dibeli pas!",
+  "type": "custom",
+  "componentId": "surface-area-painter",
+  "data": {
+    "items": [
+      {
+        "id": "level-1",
+        "type": "kubus",
+        "dimensions": { "p": 5, "l": 5, "t": 5 },
+        "color": "#FF6B6B",
+        "name": "Kubus Kecil"
+      },
+      {
+        "id": "level-2",
+        "type": "balok",
+        "dimensions": { "p": 6, "l": 4, "t": 3 },
+        "color": "#4ECDC4",
+        "name": "Balok Sedang"
+      },
+      {
+        "id": "level-3",
+        "type": "kubus",
+        "dimensions": { "p": 8, "l": 8, "t": 8 },
+        "color": "#FFE66D",
+        "name": "Kubus Sedang"
+      },
+      {
+        "id": "level-4",
+        "type": "balok",
+        "dimensions": { "p": 10, "l": 5, "t": 4 },
+        "color": "#1A535C",
+        "name": "Balok Panjang"
+      },
+      {
+        "id": "level-5",
+        "type": "kubus",
+        "dimensions": { "p": 12, "l": 12, "t": 12 },
+        "color": "#FF9F1C",
+        "name": "Kubus Besar"
+      },
+      {
+        "id": "level-6",
+        "type": "balok",
+        "dimensions": { "p": 8, "l": 6, "t": 5 },
+        "color": "#9D4EDD",
+        "name": "Balok Proporsional"
+      },
+      {
+        "id": "level-7",
+        "type": "balok",
+        "dimensions": { "p": 15, "l": 4, "t": 4 },
+        "color": "#2EC4B6",
+        "name": "Balok Ramping"
+      },
+      {
+        "id": "level-8",
+        "type": "kubus",
+        "dimensions": { "p": 10, "l": 10, "t": 10 },
+        "color": "#FF3366",
+        "name": "Kubus Sepuluh"
+      }
+    ]
+  }
+}

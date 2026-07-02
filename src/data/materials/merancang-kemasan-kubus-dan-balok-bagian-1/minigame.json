@@ -1,0 +1,43 @@
+{
+  "id": "minigame-kemasan-gabungan",
+  "title": "Arsitek Blok: Bangun Gabungan",
+  "description": "Bongkar bangun gabungan untuk melihat sisi yang berhimpitan dan hitung total luas permukaannya!",
+  "type": "custom",
+  "componentId": "composite-shape-architect",
+  "data": {
+    "items": [
+      {
+        "id": "level-1",
+        "name": "Bentuk T",
+        "shapeA": { "type": "balok", "dimensions": { "p": 10, "l": 4, "t": 4 }, "color": "#4ECDC4" },
+        "shapeB": { "type": "kubus", "dimensions": { "p": 4, "l": 4, "t": 4 }, "color": "#FF9F1C" },
+        "overlap": { "p": 4, "l": 4 },
+        "offset": { "x": 3, "z": 0 }
+      },
+      {
+        "id": "level-2",
+        "name": "Bentuk L",
+        "shapeA": { "type": "balok", "dimensions": { "p": 8, "l": 5, "t": 3 }, "color": "#1A535C" },
+        "shapeB": { "type": "balok", "dimensions": { "p": 3, "l": 5, "t": 6 }, "color": "#FFE66D" },
+        "overlap": { "p": 3, "l": 5 },
+        "offset": { "x": 0, "z": 0 }
+      },
+      {
+        "id": "level-3",
+        "name": "Podium",
+        "shapeA": { "type": "kubus", "dimensions": { "p": 6, "l": 6, "t": 6 }, "color": "#FF3366" },
+        "shapeB": { "type": "balok", "dimensions": { "p": 6, "l": 6, "t": 2 }, "color": "#9D4EDD" },
+        "overlap": { "p": 6, "l": 6 },
+        "offset": { "x": 0, "z": 0 }
+      },
+      {
+        "id": "level-4",
+        "name": "Piramida Balok",
+        "shapeA": { "type": "balok", "dimensions": { "p": 12, "l": 8, "t": 2 }, "color": "#2EC4B6" },
+        "shapeB": { "type": "balok", "dimensions": { "p": 6, "l": 4, "t": 4 }, "color": "#FF6B6B" },
+        "overlap": { "p": 6, "l": 4 },
+        "offset": { "x": 3, "z": 2 }
+      }
+    ]
+  }
+}

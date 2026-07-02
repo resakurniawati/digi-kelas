@@ -1,0 +1,607 @@
+{
+  "title": "Quiz Jaring-Jaring Kubus dan Balok",
+  "description": "20 soal pilihan ganda tentang jaring-jaring bangun ruang kubus dan balok. Jawab dengan teliti!",
+  "durationSeconds": 1200,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring terdiri atas 6 persegi yang sama besar. Saat dilipat, semua sisi dapat bertemu dengan tepat tanpa saling bertumpuk.\nBangun ruang yang terbentuk adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Balok"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kubus"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan pernyataan berikut.\n- (1) Semua sisi berbentuk persegi.\n- (2) Jumlah sisi ada enam.\n- (3) Saat dilipat membentuk kubus.\nPernyataan yang PALING tepat mengenai jaring-jaring tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Semua susunan enam persegi pasti menjadi kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Tidak semua susunan enam persegi dapat menjadi kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Semua jaring-jaring kubus berbentuk huruf T."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Semua jaring-jaring kubus sama bentuknya."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Rina menyusun enam persegi menjadi sebuah pola. Setelah dicoba dilipat, terdapat dua sisi yang saling bertumpuk sehingga kubus tidak dapat terbentuk.\nKesimpulan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Pola tersebut merupakan jaring-jaring kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Pola tersebut bukan jaring-jaring kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Pola tersebut adalah balok."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Pola tersebut dapat menjadi limas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring balok harus memiliki ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Enam persegi yang sama besar."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Enam persegi panjang dengan tiga pasang sisi kongruen."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Delapan persegi panjang."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Empat persegi panjang."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Jika salah satu sisi pada jaring-jaring kubus dihilangkan, maka saat dilipat akan terbentuk ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus sempurna."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Bangun ruang yang tidak tertutup sempurna."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Prisma."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Mengapa tidak semua susunan enam persegi dapat dijadikan jaring-jaring kubus?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena jumlah perseginya kurang."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena saat dilipat beberapa sisi dapat saling bertumpuk atau tidak bertemu."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena kubus memiliki tujuh sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena semua persegi harus berjajar lurus."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan dua jaring-jaring.\nJaring-jaring P terdiri atas enam persegi sama besar.\nJaring-jaring Q terdiri atas dua persegi dan empat persegi panjang.\nPernyataan yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "P membentuk kubus, Q membentuk balok."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "P dan Q sama-sama kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "P balok dan Q kubus."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Keduanya balok."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring balok memiliki dua sisi berukuran 8 × 5 cm, dua sisi berukuran 8 × 4 cm, dan dua sisi berukuran 5 × 4 cm.\nPernyataan yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Semua sisinya sama besar."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Bangun yang terbentuk adalah kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Bangun yang terbentuk adalah balok."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Bangun tersebut tidak dapat dilipat."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa mengatakan bahwa jaring-jaring kubus dan balok selalu sama.\nPendapat tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah, karena bentuk sisinya berbeda."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Benar jika jumlah sisinya enam."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Jaring-jaring kubus terdiri atas ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "6 persegi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4 persegi."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "2 persegi dan 4 persegi panjang."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "6 persegi panjang."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan pernyataan berikut.\n- (1) Semua jaring-jaring kubus memiliki bentuk yang sama.\n- (2) Semua jaring-jaring kubus memiliki enam persegi.\n- (3) Susunan perseginya dapat berbeda.\nPernyataan yang benar adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "(1)"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "(2)"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "(2) dan (3)"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "(1), (2), dan (3)"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Jika pada jaring-jaring balok semua persegi panjang diubah menjadi persegi yang sama ukuran, maka bangun ruang yang terbentuk adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Prisma."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Tabung."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring terdiri atas enam persegi panjang yang semuanya berbeda ukuran.\nKemungkinan bangun tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Tidak dapat membentuk balok."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Saat melipat sebuah jaring-jaring kubus, terdapat satu sisi yang tidak dapat menutup bagian atas.\nPenyebab yang paling mungkin adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Salah satu sisi kurang."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Terlalu banyak sisi."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Rusuk terlalu panjang."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Kubus memiliki tujuh sisi."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Jaring-jaring balok berbeda dengan jaring-jaring kubus karena ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Jumlah sisinya berbeda."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Bentuk sisi-sisinya tidak semuanya sama."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Balok memiliki delapan sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Kubus memiliki lebih banyak rusuk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan karakteristik berikut.\n- Enam sisi.\n- Semua sisi berbentuk persegi.\n- Dapat disusun menjadi sebelas pola jaring-jaring yang berbeda.\nBangun ruang tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Prisma."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Limas."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Mengapa balok memiliki lebih banyak variasi bentuk jaring-jaring dibandingkan kubus?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena balok memiliki lebih banyak sisi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena ukuran sisi balok tidak semuanya sama."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena balok memiliki lebih banyak titik sudut."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena balok memiliki lebih banyak rusuk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Suatu pola terdiri atas enam bangun datar.\nSaat dilipat, dua sisi saling bertumpuk.\nPola tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Merupakan jaring-jaring kubus."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Merupakan jaring-jaring balok."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Bukan jaring-jaring bangun ruang tersebut."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Dapat menjadi tabung."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa menyusun jaring-jaring kubus dengan menambahkan satu persegi lagi sehingga jumlah sisinya menjadi tujuh.\nSaat dilipat, hasil yang diperoleh adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kubus sempurna."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kubus dengan satu sisi bertumpuk."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Balok."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Prisma."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan kesimpulan berikut.\n\"Jaring-jaring kubus dan balok sama-sama memiliki enam sisi, tetapi bentuk dan ukuran sisi penyusunnya dapat berbeda.\"\nKesimpulan tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Benar jika balok berbentuk kubus."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

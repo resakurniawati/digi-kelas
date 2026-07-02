@@ -1,0 +1,907 @@
+{
+  "title": "Post-test Jaring-jaring Kubus dan Balok",
+  "description": "30 soal pilihan ganda dengan waktu 30 menit. Uji pemahamanmu setelah belajar materi ini!",
+  "durationSeconds": 1800,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Dika akan membuat kotak hadiah berbentuk kubus. Ia menggambar jaring-jaring yang terdiri atas 6 persegi. Agar dapat dirakit menjadi kubus, jaring-jaring tersebut harus ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "terdiri atas 5 persegi"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "memiliki 6 persegi yang saling terhubung dengan tepat"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "memiliki 8 persegi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "berbentuk lingkaran"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Ibu membeli kardus susu berbentuk balok. Ketika dibuka, kardus tersebut akan membentuk ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "tabung"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "jaring-jaring balok"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kerucut"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "prisma segitiga"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Perhatikan pernyataan berikut!\n- (1) Memiliki 6 persegi.\n- (2) Semua sisinya sama besar.\n- (3) Terdiri atas persegi panjang.\n- (4) Dapat dilipat menjadi kubus.\nPernyataan yang sesuai dengan jaring-jaring kubus adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "(1), (2), dan (4)"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "(1), (2), dan (3)"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "(2), (3), dan (4)"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "(1), (3), dan (4)"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Rani membuat jaring-jaring balok dari kertas karton. Ia harus menyediakan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2 sisi"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4 sisi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "6 sisi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "8 sisi"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Kotak sepatu dibuka seluruh sisinya. Bentuk tersebut disebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "volume"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "bangun datar"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "jaring-jaring balok"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "diagonal ruang"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Jaring-jaring kubus tidak dapat terbentuk jika ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "ada sisi yang bertumpuk saat dilipat"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "memiliki 6 persegi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "dapat dilipat"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "semua sisi terhubung"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Balok memiliki bentuk jaring-jaring yang tersusun atas ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "6 persegi panjang atau gabungan persegi dan persegi panjang"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "6 segitiga"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "5 persegi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "2 lingkaran"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Ani melihat kemasan teh berbentuk balok. Untuk mendaur ulangnya, ia harus ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "membelah menjadi dua"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "membuka lipatan hingga menjadi jaring-jaring"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "membakarnya"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menggulungnya"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Kubus memiliki banyak kemungkinan jaring-jaring sebanyak ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "6"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "8"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "10"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "11"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Tujuan mempelajari jaring-jaring dalam kehidupan sehari-hari adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "menghitung luas segitiga"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "membuat kemasan secara efisien"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "menghitung suhu"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menentukan berat benda"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Budi membuat jaring-jaring kubus dari 6 persegi, tetapi saat dilipat ada dua sisi yang saling menumpuk. Kesimpulan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "jaring-jaring sudah benar"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "jaring-jaring tersebut salah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kubus tetap terbentuk"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "jumlah sisinya kurang"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Sinta ingin membuat kotak pensil berbentuk balok. Menurutmu, bahan yang paling tepat digunakan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "kertas koran tipis"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "kardus bekas"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "daun"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "kain"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa menyatakan bahwa semua susunan 6 persegi pasti dapat menjadi kubus. Pendapat tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "benar"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "salah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "hampir benar"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "tidak dapat diketahui"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Kemasan makanan yang mudah dibuka dan dilipat kembali menunjukkan bahwa ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "jaring-jaring dirancang dengan baik"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "volume terlalu besar"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "bahan terlalu mahal"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "bentuknya tidak tepat"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Guru meminta siswa memilih jaring-jaring yang paling hemat bahan. Hal yang harus dipertimbangkan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "warna kertas"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "jumlah perekat"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "efisiensi susunan sisi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "harga pensil"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Mengapa produsen perlu memahami jaring-jaring kemasan?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "agar kemasan lebih berat"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "agar mudah dirancang dan diproduksi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "agar warna menarik"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "agar mahal"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Jika sebuah jaring-jaring sulit dilipat, maka ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "kualitas desain perlu diperbaiki"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "volumenya bertambah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "jumlah sisi berubah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "kubus menjadi balok"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa membuat tutup kotak terlalu kecil. Kesalahan yang terjadi adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "salah menentukan ukuran jaring-jaring"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "salah memilih warna"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "salah menulis nama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "salah menghitung umur"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Dalam proyek membuat kotak hadiah, sikap yang perlu ditunjukkan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "menyontek"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "menyerah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kreatif dan teliti"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "tergesa-gesa"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Alasan jaring-jaring penting dipelajari adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "membantu merancang benda nyata"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "untuk bermain saja"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "agar cepat selesai"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menghafal rumus"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 21,
+      "question": {
+        "type": "text",
+        "content": "Kamu diminta membuat kemasan kue berbentuk kubus. Langkah pertama yang dilakukan adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "menghias kotak"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "merancang jaring-jaring"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "menimbang kue"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "memotong pita"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 22,
+      "question": {
+        "type": "text",
+        "content": "Untuk membuat tempat tisu berbentuk balok, kamu perlu ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "membuat rancangan jaring-jaring"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "menggambar lingkaran"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "membuat prisma"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menggambar tabung"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 23,
+      "question": {
+        "type": "text",
+        "content": "Raka ingin membuat celengan dari kardus bekas. Ia harus menentukan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "ukuran jaring-jaring"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "warna meja"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "harga kardus"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "jumlah teman"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 24,
+      "question": {
+        "type": "text",
+        "content": "Produk berikut yang dapat dibuat menggunakan jaring-jaring balok adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "kotak pensil"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "bola"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kelereng"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "ban"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 25,
+      "question": {
+        "type": "text",
+        "content": "Saat membuat kotak hadiah, peserta didik perlu bersikap ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "malas"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "tidak peduli"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kreatif"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "bergantung pada teman"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 26,
+      "question": {
+        "type": "text",
+        "content": "Jaring-jaring kubus dapat dimanfaatkan untuk membuat ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "kotak kado"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "bola basket"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "topi kerucut"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "gelas"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 27,
+      "question": {
+        "type": "text",
+        "content": "Dalam proyek kelompok, tugas membagi pekerjaan menunjukkan sikap ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "mandiri dan gotong royong"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "malas"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "egois"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "ceroboh"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 28,
+      "question": {
+        "type": "text",
+        "content": "Jika desain jaring-jaring tidak sesuai, maka tindakan terbaik adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "membuang proyek"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "memperbaiki desain"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "berhenti belajar"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menyalahkan teman"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 29,
+      "question": {
+        "type": "text",
+        "content": "Ketika mempresentasikan hasil rancangan kotak, peserta didik menunjukkan sikap ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "percaya diri"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "takut mencoba"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "acuh tak acuh"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "malas berbicara"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 30,
+      "question": {
+        "type": "text",
+        "content": "Setelah berhasil membuat jaring-jaring kemasan yang dapat digunakan, peserta didik telah menunjukkan kemampuan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "menghafal"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "menciptakan solusi pemecahan masalah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "menyalin pekerjaan teman"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "bermain tanpa tujuan"
+        }
+      ],
+      "correct": "B"
+    }
+  ]
+}
