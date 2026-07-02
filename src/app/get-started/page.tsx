@@ -44,7 +44,7 @@ export default function LoginDigiKelas() {
       if (existingSession) {
         // Cek PIN jika sudah disetel di database
         if (existingSession.pin && existingSession.pin !== pin) {
-          setErrorMsg("PIN salah! Coba ingat-ingat lagi ya.");
+          setErrorMsg("PIN salah! Coba ingat-ingat lagi ya, atau mungkin nama ini sudah dipakai orang lain.");
           setIsLoading(false);
           return;
         }
