@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import "./globals.css";
 import BgDecoration from "@/components/bg-decoration";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const quicksand = Quicksand({
   variable: "--font-quicksand",
@@ -27,6 +28,7 @@ export default function RootLayout({
         <div className="min-h-150 flex-1 flex flex-col items-center justify-center p-6 sm:p-12 relative overflow-hidden">
           <BgDecoration />
           {children}
+          <SpeedInsights />
         </div>
       </body>
     </html>
