@@ -30,7 +30,7 @@ export default function AboutPage() {
           </div>
           <div>
             <h1 className="text-xl sm:text-2xl font-black text-foreground">Tentang DigiKelas</h1>
-            <p className="text-xs sm:text-sm text-gray-500 font-bold">Kenali platform dan pengembangnya.</p>
+            <p className="text-xs sm:text-sm text-gray-500 font-bold">Kenali platform dan guru penyusun materi.</p>
           </div>
         </div>
         <Link
@@ -104,14 +104,14 @@ export default function AboutPage() {
 
         {/* Right Column */}
         <div className="flex flex-col gap-4 sm:gap-5">
-           {/* Profil Developer */}
+           {/* Profil Guru */}
            <section className="bg-white rounded-3xl sm:rounded-4xl border-[3px] border-border shadow-sm overflow-hidden flex flex-col h-full">
             <div className="flex items-center gap-3 border-b-[3px] border-border p-4 sm:p-5 bg-[#FDF2F8]">
               <div className="flex size-12 shrink-0 items-center justify-center rounded-xl sm:rounded-2xl bg-pink-500 shadow-sm text-white">
                 <User className="size-6" />
               </div>
               <div>
-                <h2 className="text-lg sm:text-xl font-black leading-tight text-pink-600">Profil Developer</h2>
+                <h2 className="text-lg sm:text-xl font-black leading-tight text-pink-600">Profil Guru</h2>
               </div>
             </div>
             
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 </div>
                 <div className="pt-2 sm:pt-4">
                   <h3 className="text-2xl sm:text-3xl font-black text-foreground">Resa Kurniawati</h3>
-                  <p className="text-sm font-bold text-pink-500 mt-1">Pengembang Utama DigiKelas</p>
+                  <p className="text-sm font-bold text-pink-500 mt-1">Guru & Kurator Materi</p>
                 </div>
               </div>
 
