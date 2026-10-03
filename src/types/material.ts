@@ -13,17 +13,20 @@ export interface Material {
 
 export interface MaterialProgress {
   material_id: number;
-  pretest: StepStatus;
   emodul: StepStatus;
   video: StepStatus;
   lkpd: StepStatus;
   minigame: StepStatus;
   quiz: StepStatus;
+}
+
+// Status pre-test/post-test tunggal untuk seluruh kelas (bukan per materi)
+export interface CourseProgress {
+  pretest: StepStatus;
   posttest: StepStatus;
 }
 
 // Yang dipakai di UI — gabungan keduanya
 export interface MaterialWithProgress extends Material {
   progress: MaterialProgress;
-  certificateId?: string;
 }
