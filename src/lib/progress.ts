@@ -1,141 +1,86 @@
 import materials from "../../public/assets/material-data.json";
 import type {
-  MaterialProgress,
+  CourseProgress,
   MaterialWithProgress,
   StepStatus,
 } from "@/types/material";
 import { supabase } from "./supabase/client";
 
-// Tentukan default status berdasarkan posisi materi
-function getDefaultStatus(
-  materialId: number,
-): Pick<
-  MaterialProgress,
-  "pretest" | "emodul" | "video" | "lkpd" | "minigame" | "quiz" | "posttest"
-> {
-  const isFirst = materialId === materials[0].id;
-
-  return {
-    pretest: isFirst ? "available" : "locked",
-    emodul: "locked",
-    video: "locked",
-    lkpd: "locked",
-    minigame: "locked",
-    quiz: "locked",
-    posttest: "locked",
-  };
-}
-
-export async function getOrCreateProgress(
-  sessionId: string,
-  materialId: number,
-): Promise<MaterialProgress> {
-  // Coba ambil yang sudah ada
-  const { data: existing } = await supabase
-    .from("progress")
-    .select("*")
-    .eq("session_id", sessionId)
-    .eq("material_id", materialId)
-    .single();
-
-  if (existing) return existing as MaterialProgress;
-
-  // Belum ada — buat baru dengan default status
-  // Cek apakah materi sebelumnya sudah selesai untuk menentukan apakah
-  // pretest materi ini seharusnya available atau masih locked
-  const defaultStatus = await resolveDefaultStatus(sessionId, materialId);
-
-  const { data: newRow } = await supabase
-    .from("progress")
-    .insert({
-      session_id: sessionId,
-      material_id: materialId,
-      ...defaultStatus,
-    })
-    .select("*")
-    .single();
-
-  return newRow as MaterialProgress;
-}
-
-// Cek apakah materi sebelumnya sudah posttest completed
-async function resolveDefaultStatus(sessionId: string, materialId: number) {
-  const materialIndex = materials.findIndex((m) => m.id === materialId);
-  const isFirst = materialIndex === 0;
-
-  if (isFirst) {
-    return getDefaultStatus(materialId); // langsung available
-  }
-
-  const prevMaterialId = materials[materialIndex - 1].id;
-
-  const { data: prevProgress } = await supabase
-    .from("progress")
-    .select("posttest")
-    .eq("session_id", sessionId)
-    .eq("material_id", prevMaterialId)
-    .single();
-
-  const prevCompleted = prevProgress?.posttest === "completed";
-
-  return {
-    pretest: prevCompleted
-      ? ("available" as StepStatus)
-      : ("locked" as StepStatus),
-    emodul: "locked" as StepStatus,
-    video: "locked" as StepStatus,
-    lkpd: "locked" as StepStatus,
-    minigame: "locked" as StepStatus,
-    quiz: "locked" as StepStatus,
-    posttest: "locked" as StepStatus,
-  };
+export interface HomeProgressData {
+  materials: MaterialWithProgress[];
+  course: CourseProgress;
+  certificateId?: string;
 }
 
 export async function getAllMaterialsWithProgress(
   sessionId: string,
-): Promise<MaterialWithProgress[]> {
+): Promise<HomeProgressData> {
   // Ambil semua progress yang sudah ada untuk session ini
   const { data: existingRows } = await supabase
     .from("progress")
     .select("*")
     .eq("session_id", sessionId);
 
-  // Ambil semua sertifikat untuk session ini
-  const { data: certRows } = await supabase
+  const lastMaterial = materials[materials.length - 1];
+
+  // Sertifikat kelulusan tunggal, tersimpan di bawah material_id materi terakhir
+  const { data: certRow } = await supabase
     .from("certificates")
-    .select("id, material_id")
-    .eq("session_id", sessionId);
+    .select("id")
+    .eq("session_id", sessionId)
+    .eq("material_id", lastMaterial.id.toString())
+    .single();
 
-  return materials.map((material, index) => {
-    const progress = existingRows?.find((p) => p.material_id === material.id);
-    const certificate = certRows?.find((c) => c.material_id === material.id.toString());
+  const firstRow = existingRows?.find((p) => p.material_id === materials[0].id);
+  const lastRow = existingRows?.find((p) => p.material_id === lastMaterial.id);
 
-    // Kalau belum ada row-nya, gunakan default —
-    // Kita cek apakah material sebelumnya sudah posttest completed
-    let pretestStatus: StepStatus = "locked";
-    if (index === 0) {
-      pretestStatus = "available";
-    } else {
-      const prevMaterialId = materials[index - 1].id;
-      const prevProgress = existingRows?.find((p) => p.material_id === prevMaterialId);
-      if (prevProgress?.posttest === "completed") {
-        pretestStatus = "available";
+  const course: CourseProgress = {
+    pretest: (firstRow?.pretest as StepStatus) ?? "available",
+    posttest: (lastRow?.posttest as StepStatus) ?? "locked",
+  };
+
+  const materialsWithProgress: MaterialWithProgress[] = materials.map(
+    (material, index) => {
+      const row = existingRows?.find((p) => p.material_id === material.id);
+
+      // Kalau belum ada row-nya, tentukan status default emodul/video:
+      // materi pertama menunggu pre-test global, materi lain menunggu quiz materi sebelumnya
+      let defaultStatus: StepStatus = "locked";
+      if (index === 0) {
+        defaultStatus = course.pretest === "completed" ? "available" : "locked";
+      } else {
+        const prevRow = existingRows?.find(
+          (p) => p.material_id === materials[index - 1].id,
+        );
+        defaultStatus = prevRow?.quiz === "completed" ? "available" : "locked";
       }
-    }
 
-    return {
-      ...material,
-      certificateId: certificate?.id,
-      progress: progress ?? {
-        material_id: material.id,
-        pretest: pretestStatus,
-        emodul: "locked",
-        video: "locked",
-        lkpd: "locked",
-        minigame: "locked",
-        quiz: "locked",
-        posttest: "locked",
-      },
-    } as MaterialWithProgress;
-  });
+      return {
+        ...material,
+        progress: row
+          ? {
+              material_id: row.material_id,
+              emodul: row.emodul,
+              video: row.video,
+              lkpd: row.lkpd,
+              minigame: row.minigame,
+              quiz: row.quiz,
+            }
+          : {
+              material_id: material.id,
+              emodul: defaultStatus,
+              video: defaultStatus,
+              lkpd: "locked",
+              minigame: "locked",
+              quiz: "locked",
+            },
+      };
+    },
+  );
+
+  return {
+    materials: materialsWithProgress,
+    course,
+    certificateId: certRow?.id,
+  };
 }
