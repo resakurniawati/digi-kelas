@@ -150,6 +150,8 @@ Alur Per Misi: Pre-Test → E-Modul & Video → LKPD → Mini-Game → Quiz → 
 - [x] Integrasi **Supabase** untuk autentikasi, penyimpan sesi, dan skor
 - [x] Implementasi berbagai **Mini-Game** konsep bangun ruang
 - [x] Papan Peringkat (Leaderboard) & Sertifikat Kelulusan
+- [ ] Tracking data dashboard pengajar (Dashboard Admin/Guru)
+- [ ] Menambahkan dukungan untuk topik/materi matematika lainnya di masa mendatang
 
 ---
 
