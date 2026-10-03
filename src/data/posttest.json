@@ -1,0 +1,907 @@
+{
+  "title": "Post-test Akhir: Kubus dan Balok",
+  "description": "30 soal pilihan ganda yang mencakup seluruh materi kubus dan balok yang sudah kamu pelajari.",
+  "durationSeconds": 2700,
+  "questions": [
+    {
+      "id": 1,
+      "question": {
+        "type": "text",
+        "content": "Jika sebuah kubus memiliki panjang rusuk 8 cm, maka semua sisi kubus tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Berbeda ukuran"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Berbentuk persegi panjang"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Berukuran sama"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Berjumlah 8"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 2,
+      "question": {
+        "type": "text",
+        "content": "Mengapa dadu lebih tepat disebut kubus daripada balok?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena memiliki 12 sisi"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena memiliki 8 rusuk"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena semua sisinya berbentuk persegi yang sama besar"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena memiliki sisi lengkung"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "question": {
+        "type": "text",
+        "content": "Seorang siswa mengatakan bahwa balok memiliki 6 sisi, 8 titik sudut, tetapi hanya memiliki 10 rusuk. Pernyataan tersebut ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Benar seluruhnya"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Salah pada jumlah sisi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Salah pada jumlah rusuk"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Salah pada jumlah titik sudut"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kotak hadiah berbentuk kubus. Jika salah satu rusuknya 12 cm, maka rusuk yang lain ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Lebih panjang dari 12 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Lebih pendek dari 12 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Sama dengan 12 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak dapat ditentukan"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 5,
+      "question": {
+        "type": "text",
+        "content": "Pernyataan A: Semua kubus adalah balok.\nPernyataan B: Semua balok adalah kubus. Pernyataan yang tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "A dan B benar"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "A dan B salah"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "A benar, B salah"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "A salah, B benar"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 6,
+      "question": {
+        "type": "text",
+        "content": "Jaring-jaring kubus tidak dapat terbentuk jika ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "ada sisi yang bertumpuk saat dilipat"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "memiliki 6 persegi"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "dapat dilipat"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "semua sisi terhubung"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "question": {
+        "type": "text",
+        "content": "Balok memiliki bentuk jaring-jaring yang tersusun atas ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "6 persegi panjang atau gabungan persegi dan persegi panjang"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "6 segitiga"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "5 persegi"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "2 lingkaran"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 8,
+      "question": {
+        "type": "text",
+        "content": "Ani melihat kemasan teh berbentuk balok. Untuk mendaur ulangnya, ia harus ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "membelah menjadi dua"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "membuka lipatan hingga menjadi jaring-jaring"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "membakarnya"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menggulungnya"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 9,
+      "question": {
+        "type": "text",
+        "content": "Kubus memiliki banyak kemungkinan jaring-jaring sebanyak ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "6"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "8"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "10"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "11"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 10,
+      "question": {
+        "type": "text",
+        "content": "Tujuan mempelajari jaring-jaring dalam kehidupan sehari-hari adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "menghitung luas segitiga"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "membuat kemasan secara efisien"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "menghitung suhu"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "menentukan berat benda"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "question": {
+        "type": "text",
+        "content": "Tempat pensil berbentuk balok berukuran 20 cm × 8 cm × 5 cm memiliki volume ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "600 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "700 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "800 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "900 cm³"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "question": {
+        "type": "text",
+        "content": "Balok berukuran 25 cm × 16 cm × 10 cm memiliki volume ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "3.000 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4.000 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "5.000 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "6.000 cm³"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "question": {
+        "type": "text",
+        "content": "Kubus dengan sisi 12 cm mempunyai volume ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1.248 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "1.528 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.728 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.928 cm³"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 14,
+      "question": {
+        "type": "text",
+        "content": "Kemasan makanan berbentuk balok berukuran 24 cm × 15 cm × 10 cm mempunyai volume ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "3.000 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "3.600 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "4.000 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "4.600 cm³"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus memiliki volume 1.000 cm³. Panjang sisinya adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "8 cm"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "9 cm"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "10 cm"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "12 cm"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "question": {
+        "type": "text",
+        "content": "Kotak pensil berbentuk balok berukuran 20 cm × 8 cm × 5 cm memiliki luas permukaan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "520 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "560 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "600 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "640 cm²"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 17,
+      "question": {
+        "type": "text",
+        "content": "Kemasan makanan berbentuk kubus dengan sisi 15 cm memerlukan karton seluas ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1.150 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "1.250 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.350 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.450 cm²"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 18,
+      "question": {
+        "type": "text",
+        "content": "Balok berukuran 25 cm × 15 cm × 10 cm mempunyai luas permukaan ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1.450 cm²"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "1.550 cm²"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "1.600 cm²"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "1.700 cm²"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 19,
+      "question": {
+        "type": "text",
+        "content": "Semakin besar luas permukaan sebuah kotak, maka ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "semakin sedikit bahan pembungkus yang dibutuhkan"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "semakin banyak bahan pembungkus yang dibutuhkan"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "volumenya pasti kecil"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "bentuknya berubah menjadi kubus"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 20,
+      "question": {
+        "type": "text",
+        "content": "Tujuan menghitung luas permukaan kemasan adalah untuk mengetahui ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "kapasitas kemasan"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "berat kemasan"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "kebutuhan bahan pembungkus"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "harga barang"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 21,
+      "question": {
+        "type": "text",
+        "content": "Mengapa jaring-jaring perlu diuji coba dengan cara dilipat sebelum dicetak dalam jumlah banyak?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Agar warna lebih menarik."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Untuk memastikan semua sisi bertemu dengan tepat."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Agar ukuran karton bertambah."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Untuk mengurangi jumlah sisi."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 22,
+      "question": {
+        "type": "text",
+        "content": "Sebuah jaring-jaring balok seluruh sisinya berbentuk persegi.\nPernyataan tersebut menunjukkan bahwa ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "jaring-jaring tersebut membentuk balok."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "jaring-jaring tersebut membentuk kubus."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "jaring-jaring tersebut tidak dapat dilipat."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "jaring-jaring tersebut membentuk prisma."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 23,
+      "question": {
+        "type": "text",
+        "content": "Sebuah perusahaan ingin membuat kemasan pasta gigi berbentuk balok. Mengapa menggunakan jaring-jaring kubus kurang tepat?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Karena kubus memiliki lebih banyak sisi."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Karena ukuran semua sisi kubus sama, sedangkan balok memiliki sisi dengan ukuran berbeda."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Karena balok memiliki tujuh sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Karena kubus memiliki lebih banyak rusuk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 24,
+      "question": {
+        "type": "text",
+        "content": "Jika salah satu sisi pada jaring-jaring balok tidak dibuat, maka hasil akhirnya adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "balok tetap sempurna"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "kemasan memiliki bagian yang terbuka"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "berubah menjadi kubus"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "berubah menjadi prisma"
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 25,
+      "question": {
+        "type": "text",
+        "content": "Dua kelompok membuat rancangan kemasan.\nKelompok A menghasilkan jaring-jaring yang dapat dirakit sempurna.\nKelompok B menghasilkan jaring-jaring yang menyebabkan dua sisi bertumpuk.\nKelompok yang menghasilkan rancangan terbaik adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Kelompok A"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Kelompok B"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Keduanya"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Tidak ada"
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 26,
+      "question": {
+        "type": "text",
+        "content": "Jika panjang rusuk sebuah kubus menjadi dua kali semula, maka volumenya menjadi ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2 kali"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "4 kali"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "6 kali"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "8 kali"
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 27,
+      "question": {
+        "type": "text",
+        "content": "Perusahaan ingin mengurangi biaya produksi kemasan tanpa mengurangi kapasitas isi. Cara yang paling tepat adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Memilih desain dengan luas permukaan lebih kecil."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Memperbesar semua ukuran kemasan."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Menambah jumlah sisi."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Mengurangi volume."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 28,
+      "question": {
+        "type": "text",
+        "content": "Sebuah balok berukuran 18 cm × 12 cm × 10 cm. Volume balok tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "1.980 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "2.060 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "2.160 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "2.360 cm³"
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 29,
+      "question": {
+        "type": "text",
+        "content": "Mengapa luas permukaan penting diperhitungkan dalam pembuatan kemasan?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "Menentukan warna kemasan."
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "Menentukan banyaknya bahan yang dibutuhkan."
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "Menentukan berat isi produk."
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "Menentukan harga produk."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 30,
+      "question": {
+        "type": "text",
+        "content": "Sebuah kubus memiliki luas permukaan 1.176 cm². Volume kubus tersebut adalah ...."
+      },
+      "options": [
+        {
+          "label": "A",
+          "type": "text",
+          "content": "2.744 cm³"
+        },
+        {
+          "label": "B",
+          "type": "text",
+          "content": "3.375 cm³"
+        },
+        {
+          "label": "C",
+          "type": "text",
+          "content": "4.096 cm³"
+        },
+        {
+          "label": "D",
+          "type": "text",
+          "content": "4.913 cm³"
+        }
+      ],
+      "correct": "B"
+    }
+  ]
+}
