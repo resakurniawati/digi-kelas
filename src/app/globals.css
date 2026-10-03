@@ -191,4 +191,13 @@ body {
   .react-pdf__Page__textContent {
     user-select: text;
   }
+
+  /* Utility to hide scrollbars */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
