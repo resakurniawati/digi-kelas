@@ -4,7 +4,7 @@ import { useAuth } from "@/components/auth-provider";
 
 import Link from "next/link";
 
-import type { MaterialWithProgress, StepStatus } from "@/types/material";
+import type { CourseProgress, MaterialWithProgress, StepStatus } from "@/types/material";
 
 import { useEffect, useState } from "react";
 import { getAllMaterialsWithProgress } from "@/lib/progress";
@@ -319,14 +319,18 @@ function SkeletonCard() {
 export default function HomePage() {
   const { logout, username } = useAuth();
   const [materials, setMaterials] = useState<MaterialWithProgress[]>([]);
+  const [course, setCourse] = useState<CourseProgress>({
+    pretest: "locked",
+    posttest: "locked",
+  });
+  const [certificateId, setCertificateId] = useState<string | undefined>(undefined);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     let isMounted = true;
     const sessionId = localStorage.getItem("session_id");
-    
+
     if (!sessionId) {
-      // Delay state update to avoid synchronous setState inside useEffect error
       Promise.resolve().then(() => {
         if (isMounted) setIsLoading(false);
       });
@@ -336,7 +340,9 @@ export default function HomePage() {
     getAllMaterialsWithProgress(sessionId)
       .then((data) => {
         if (isMounted) {
-          setMaterials(data);
+          setMaterials(data.materials);
+          setCourse(data.course);
+          setCertificateId(data.certificateId);
           setIsLoading(false);
         }
       })
@@ -351,21 +357,21 @@ export default function HomePage() {
   }, []);
 
   const totalMateri = materials.length;
-  let totalSteps = 0;
-  let completedSteps = 0;
+  let totalSteps = materials.length > 0 ? 2 : 0; // pretest + posttest
+  let completedSteps =
+    (course.pretest === "completed" ? 1 : 0) +
+    (course.posttest === "completed" ? 1 : 0);
 
-  materials.forEach(m => {
+  materials.forEach((m) => {
     const steps = [
-      m.progress.pretest,
       m.progress.emodul,
       m.progress.video,
       m.progress.lkpd,
       m.progress.minigame,
       m.progress.quiz,
-      m.progress.posttest
     ];
     totalSteps += steps.length;
-    completedSteps += steps.filter(s => s === "completed").length;
+    completedSteps += steps.filter((s) => s === "completed").length;
   });
 
   const progressPercentage = totalSteps > 0 ? Math.round((completedSteps / totalSteps) * 100) : 0;
@@ -444,6 +450,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      {!isLoading && materials.length > 0 && (
+        <section className="overflow-hidden rounded-3xl border-[3px] border-border bg-white shadow-sm sm:rounded-4xl">
+          <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
+            <div>
+              <p className="text-xs font-bold text-primary sm:text-sm">Sebelum mulai belajar</p>
+              <h2 className="text-xl font-bold leading-tight text-foreground sm:text-2xl">Pre-test</h2>
+              <p className="mt-1 text-sm font-semibold leading-relaxed text-gray-500">
+                Kerjakan pre-test untuk membuka seluruh materi kubus dan balok.
+              </p>
+            </div>
+            <div className="sm:w-64">
+              <ActionButton href="/pre-test" icon="pre-test" status={course.pretest} variant="accent">
+                Pre-test
+              </ActionButton>
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="grid gap-4 md:grid-cols-2">
         {isLoading ? (
           <>
@@ -458,7 +483,7 @@ export default function HomePage() {
           materials.map((material) => {
           const completedCount = Object.values(material.progress).filter(status => status === "completed").length;
           const progressText = completedCount > 0 ? `${completedCount} selesai` : "Belum mulai";
-          
+
           return (
             <article
               key={material.id}
@@ -492,20 +517,6 @@ export default function HomePage() {
                 </p>
 
                 <div className="flex flex-col gap-5 pt-1">
-                  <div className="flex flex-col gap-2.5">
-                    <p className="text-sm font-bold text-primary border-b-2 border-border/50 pb-1.5">Persiapan Belajar</p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                      <ActionButton
-                        href={`/pre-test/${material.slug}`}
-                        icon="pre-test"
-                        status={material.progress.pretest}
-                        variant="accent"
-                      >
-                        Pre-test
-                      </ActionButton>
-                    </div>
-                  </div>
-
                   <div className="flex flex-col gap-2.5">
                     <p className="text-sm font-bold text-primary border-b-2 border-border/50 pb-1.5">Eksplorasi & Aktivitas</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
@@ -545,7 +556,7 @@ export default function HomePage() {
                   </div>
 
                   <div className="flex flex-col gap-2.5">
-                    <p className="text-sm font-bold text-primary border-b-2 border-border/50 pb-1.5">Evaluasi Akhir</p>
+                    <p className="text-sm font-bold text-primary border-b-2 border-border/50 pb-1.5">Evaluasi</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                       <ActionButton
                         href={`/quiz/${material.slug}`}
@@ -554,37 +565,46 @@ export default function HomePage() {
                       >
                         Quiz
                       </ActionButton>
-                      <ActionButton
-                        href={`/post-test/${material.slug}`}
-                        icon="post-test"
-                        status={material.progress.posttest}
-                      >
-                        Post-test
-                      </ActionButton>
                     </div>
                   </div>
-
-                  {material.certificateId && (
-                    <div className="flex flex-col gap-2.5">
-                      <p className="text-sm font-bold text-accent border-b-2 border-border/50 pb-1.5">Penghargaan</p>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                        <ActionButton
-                          href={`/certificate/${material.certificateId}`}
-                          icon="certificate"
-                          status="available"
-                          variant="gold"
-                        >
-                          Sertifikat Kelulusan
-                        </ActionButton>
-                      </div>
-                    </div>
-                  )}
                 </div>
               </div>
             </article>
           );
         }))}
       </section>
+
+      {!isLoading && materials.length > 0 && (
+        <section className="overflow-hidden rounded-3xl border-[3px] border-border bg-white shadow-sm sm:rounded-4xl">
+          <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
+            <div>
+              <p className="text-xs font-bold text-primary sm:text-sm">Setelah semua materi selesai</p>
+              <h2 className="text-xl font-bold leading-tight text-foreground sm:text-2xl">Post-test</h2>
+              <p className="mt-1 text-sm font-semibold leading-relaxed text-gray-500">
+                Selesaikan post-test untuk mendapatkan sertifikat kelulusan.
+              </p>
+            </div>
+            <div className="sm:w-64">
+              <ActionButton href="/post-test" icon="post-test" status={course.posttest}>
+                Post-test
+              </ActionButton>
+            </div>
+          </div>
+
+          {certificateId && (
+            <div className="border-t-[3px] border-border p-4 sm:p-5">
+              <ActionButton
+                href={`/certificate/${certificateId}`}
+                icon="certificate"
+                status="available"
+                variant="gold"
+              >
+                Sertifikat Kelulusan
+              </ActionButton>
+            </div>
+          )}
+        </section>
+      )}
     </main>
   );
 }

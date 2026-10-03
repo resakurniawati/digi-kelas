@@ -1,7 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { cookies, headers } from "next/headers";
 import { notFound } from "next/navigation";
-import materials from "../../../../public/assets/material-data.json";
 import PrintButton from "./print-button";
 import BackButton from "./back-button";
 import { Metadata } from "next";
@@ -48,8 +47,7 @@ export default async function CertificatePage({
 
   const finalScore = cert.score !== undefined && cert.score !== null ? cert.score : 100;
 
-  const material = materials.find((m) => m.id.toString() === cert.material_id);
-  const title = material ? material.title : "Modul Pembelajaran";
+  const title = "Program Pembelajaran Kubus dan Balok";
   const date = new Date(cert.created_at).toLocaleDateString("id-ID", {
     year: "numeric",
     month: "long",

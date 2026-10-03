@@ -17,6 +17,17 @@ export async function generateCertificate(
   const cookieStore = await cookies();
   const supabase = createClient(cookieStore);
 
+  const { data: progress } = await supabase
+    .from("progress")
+    .select("posttest")
+    .eq("session_id", sessionId)
+    .eq("material_id", material.id)
+    .single();
+
+  if (progress?.posttest !== "completed") {
+    return { success: false, error: "Post-test belum diselesaikan" };
+  }
+
   // Check if certificate already exists
   const { data: existing } = await supabase
     .from("certificates")
